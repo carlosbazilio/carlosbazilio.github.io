@@ -1,38 +1,37 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Carlos Bazilio",
+    "label": "Professor Associado",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "carlosbazilio@id.uff.br",
+    "url": "https://carlosbazilio.github.io/",
+    "summary": "Um professor apaixonado pela educação, encantado por números, mas num romance sério com as letras.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Rua Recife, s/n",
+      "postalCode": "28895-532",
+      "city": "Rio das Ostras",
+      "countryCode": "BR",
+      "region": "Rio de Janeiro"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "carlosbazilio",
+        "url": "https://www.linkedin.com/in/carlos-bazilio-090ba750/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Instituto de Ciência e Tecnologia, Universidade Federal Fluminense",
+      "position": "Professor Associado",
+      "url": "https://carlosbazilio.github.io/",
+      "startDate": "2006-08-01",
+      "endDate": "-",
+      "summary": "Professor de Ciência da Computação",
+      "highlights": ["Linguagens de Programação", "Desenvolvimento de Sistemas"]
     }
-  ],
+  ]/*,
   "volunteer": [
     {
       "organization": "People's Climate March",
@@ -196,5 +195,5 @@
       "endDate": "2018-01-01",
       "url": "https://example.com"
     }
-  ]
+  ]*/
 }
