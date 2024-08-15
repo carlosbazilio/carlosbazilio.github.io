@@ -1,81 +1,76 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: pp
+description: paradigmas de programação
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+O objetivo desta disciplina é apresentar conceitos fundamentais de linguagens de programação, os quais são importantíssimos para fundamentar um bom programador. De forma a absorver melhor o conhecimento apresentado, todos os paradigmas apresentados serão também requisitados de forma prática.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Pré-requisito: Programação de Computadores II
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Tópicos:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<ul>
+    <li>O quê? Por quê? Como? Quando? Onde?</li>
+    <li>Apresentação dos tópicos, critérios de avaliação, presença</li>
+    <li>Histórico</li>
+    <li>Gramáticas e BNF</li>
+    <li>Tipos de Análise</li>
+    <li>Semântica Formal</li>
+    <li>Esquemas de Tradução (Compilação, Interpretação, ...)</li>
+    <li>Nomes, Escopos e Tempo de Amarração</li>
+    <li>Tipos de Alocação</li>
+    <li>Tipos de Dados</li>
+    <li>Coleta de Lixo</li>
+    <li>Controle de Fluxo</li>
+    <li>Continuações</li>
+    <li>Subrotinas e Passagem de Parâmetros</li>
+    <li>Sobrecarga de Procedimentos, Módulos Genéricos</li>
+    <li>Corotinas</li>
+    <li>TAD</li>
+    <li>Orientação a Objetos (Herança, Encapsulamento, Classe abstrata, Polimorfismo)</li>
+    <li>Tratamento de Exceção</li>
+    <li>Programação Funcional</li>
+    <li>Programação Lógica (Backtracking, Resolução, Unificação e Listas)</li>
+    <li>Programação em Linguagens de Script</li>
+    <li>Concorrência</li>
+</ul>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Bibliografia:
+<ol>
+    <li>Michael L. Scott, <i>Programming Language Pragmatics</i>, Morgan Kaufmann.</li>
+    <li>Robert W. Sebesta, <i>Concepts of Programming Language</i>, Addison Wesley.</li>
+    <li>Peter Sestoft, <i>Programming Language Concepts</i>, Springer.</li>
+    <li><a href="http://haskell.tailorfontela.com.br/">Miran Lipovaca, <i>Aprender Haskell será um Grande Bem para Você</i></a></li>
+    <li><a href="http://eloquentjavascript.net/3rd_edition/">Marijn Haverbeke, <i>Eloquent JavaScript</i></a></li>
+</ol>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Avaliação: Média final = (Prova1 + Prova2 + Média-Trabalhos) / 3
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Ferramentas:
 
-{% raw %}
+<ul>
+    <li><a href="https://bnfplayground.pauliankline.com/">Ferramenta para estudar/compreender BNF</a></li>
+    <li><a href="https://pythontutor.com/visualize.html#mode=edit">Ferramenta para exibição de pilha de ativação</a></li>
+    <li><a href="https://igorfrotte.github.io/heapAllocation/">Ferramenta para simulação de manipulação do HEAP (créditos para o ex-aluno Igor Frotté)</a></li>
+    <li><a href="https://visualgo.net/en">Visualização de Algoritmos e Estruturas de Dados</a></li>
+    <li><a href="https://spin.atomicobject.com/visualizing-garbage-collection-algorithms/">Visualização de Algoritmos e Coleta de Lixo</a></li>
+</ul>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Materia Complementar:
 
-{% endraw %}
+<ul>
+    <li><a href="https://github.com/carlosbazilio/trabalho_lp">Repositório para submissão de trabalhos</a></li>
+    <li>Códigos discutidos em sala em diferentes linguagens: <a href="https://github.com/carlosbazilio/lp">GitHub</a></li>
+    <li><a href="http://www.computerhistory.org/timeline/">Timeline de linguagens e afins</a></li>
+    <li><a href="https://www.youtube.com/watch?v=FcYc9vOdwyM">SOLID</a>Padrão SOLID</a></li>
+    <li><a href="material/SemanticaTipos.pdf">Semântica</a></li>
+    <li><a href="https://www.cecierj.edu.br/videoaulas/" target="_blank">Video-aulas sobre Prog. OO em Java (Programação III/Cederj)</li>
+    <li><a href="material/Scala.pdf">Apresentação de Scala</a></li>
+    <li><a href="material/IntroducaoProgPar.pdf">Linguagens/Bibliotecas para a Prog. Paralela</a></li>
+    <li><a href="http://goto-transpiler.herokuapp.com/">Transpilador de Linguagens (Projeto de Monitoria)</a></li>
+</ul>
