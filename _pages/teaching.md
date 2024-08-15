@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /cursos/
-title: Cursos
+title: cursos
 description: Materiais das disciplinas que leciono.
 nav: true
 nav_order: 6
