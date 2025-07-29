@@ -1,0 +1,82 @@
+baseURL = 'https://example.org/'
+languageCode = 'pt-BR'
+title = 'Site do ~Bazilio'
+theme = 'maverick'
+
+[permalinks]
+  pages = "/:slug"
+
+[params]
+  logo = '/assets/favicon.ico'
+  description = "A minimal hugo theme focus on content"
+  author = 'Calvin Tran'
+  items = 10
+
+  [params.comments]
+    enabled = true
+    githubRepo = 'canhtran/maverick'
+    theme = 'github-light'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Sobre"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "lattes"
+    name = "Lattes"
+    url = "https://buscatextual.cnpq.br/buscatextual/cv?id=2718845038912088"
+    weight = -130
+    target = "_blank"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = -150
+  [[menu.main]]
+    identifier = "livro"
+    name = "Livro"
+    url = "/livros/programandonacozinha/"
+    weight = -200
+    target = "_blank"
+  [[menu.main]]
+    identifier = "cursos"
+    name = "Cursos"
+    url = "/cursos/"
+    weight = -250
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+[outputFormats.JSON]
+  mediatype = "application/json"
+  baseName = "feed"
+
+ignoreErrors = ["error-remote-getjson"]

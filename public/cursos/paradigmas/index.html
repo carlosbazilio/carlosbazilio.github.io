@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - http://localhost:1313/">
+    <title>Paradigmas de Programação | Site do ~Bazilio</title>
+    <meta name="description" content="A minimal hugo theme focus on content">
+    <meta property="og:url" content="http://localhost:1313/cursos/paradigmas/">
+  <meta property="og:site_name" content="Site do ~Bazilio">
+  <meta property="og:title" content="Paradigmas de Programação">
+  <meta property="og:description" content="Dia, Hora e Local Objetivo Tópicos Bibliografia Avaliação Exercícios Cronograma Ferramentas Material Complementar Dia, Hora e Local 4as e 6as, de 14-16h (Sala 4).
+Objetivo O objetivo desta disciplina é apresentar conceitos fundamentais de linguagens de programação, os quais são importantíssimos para fundamentar um bom programador. De forma a absorver melhor o conhecimento apresentado, todos os paradigmas apresentados serão também requisitados de forma prática.
+Tópicos O quê? Por quê? Como? Quando? Onde? Apresentação dos tópicos, critérios de avaliação, presença Histórico Gramáticas e BNF Tipos de Análise Semântica Formal Esquemas de Tradução (Compilação, Interpretação, …) Nomes, Escopos e Tempo de Amarração Tipos de Alocação Tipos de Dados Coleta de Lixo Controle de Fluxo Continuações Subrotinas e Passagem de Parâmetros Sobrecarga de Procedimentos, Módulos Genéricos Corotinas TAD Orientação a Objetos (Herança, Encapsulamento, Classe abstrata, Polimorfismo) Tratamento de Exceção Programação Funcional Programação Lógica (Backtracking, Resolução, Unificação e Listas) Programação em Linguagens de Script Concorrência Bibliografia Michael L. Scott, Programming Language Pragmatics, Morgan Kaufmann. Robert W. Sebesta, Concepts of Programming Language, Addison Wesley. Peter Sestoft, Programming Language Concepts, Springer. Miran Lipovaca, Aprender Haskell será um Grande Bem para Você Marijn Haverbeke, Eloquent JavaScript Avaliação Média final = (2*(Prova1 &#43; Prova2) &#43; Média-Trabalhos) / 5">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="cursos">
+    <meta property="article:published_time" content="2025-07-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-07-29T00:00:00+00:00">
+
+    
+  <meta itemprop="name" content="Paradigmas de Programação">
+  <meta itemprop="description" content="Dia, Hora e Local Objetivo Tópicos Bibliografia Avaliação Exercícios Cronograma Ferramentas Material Complementar Dia, Hora e Local 4as e 6as, de 14-16h (Sala 4).
+Objetivo O objetivo desta disciplina é apresentar conceitos fundamentais de linguagens de programação, os quais são importantíssimos para fundamentar um bom programador. De forma a absorver melhor o conhecimento apresentado, todos os paradigmas apresentados serão também requisitados de forma prática.
+Tópicos O quê? Por quê? Como? Quando? Onde? Apresentação dos tópicos, critérios de avaliação, presença Histórico Gramáticas e BNF Tipos de Análise Semântica Formal Esquemas de Tradução (Compilação, Interpretação, …) Nomes, Escopos e Tempo de Amarração Tipos de Alocação Tipos de Dados Coleta de Lixo Controle de Fluxo Continuações Subrotinas e Passagem de Parâmetros Sobrecarga de Procedimentos, Módulos Genéricos Corotinas TAD Orientação a Objetos (Herança, Encapsulamento, Classe abstrata, Polimorfismo) Tratamento de Exceção Programação Funcional Programação Lógica (Backtracking, Resolução, Unificação e Listas) Programação em Linguagens de Script Concorrência Bibliografia Michael L. Scott, Programming Language Pragmatics, Morgan Kaufmann. Robert W. Sebesta, Concepts of Programming Language, Addison Wesley. Peter Sestoft, Programming Language Concepts, Springer. Miran Lipovaca, Aprender Haskell será um Grande Bem para Você Marijn Haverbeke, Eloquent JavaScript Avaliação Média final = (2*(Prova1 &#43; Prova2) &#43; Média-Trabalhos) / 5">
+  <meta itemprop="datePublished" content="2025-07-29T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-07-29T00:00:00+00:00">
+  <meta itemprop="wordCount" content="425">
+    
+    <link rel="canonical" href="http://localhost:1313/cursos/paradigmas/">
+    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="Site do ~Bazilio" href="http://localhost:1313//atom.xml" />
+    <link rel="alternate" type="application/json" title="Site do ~Bazilio" href="http://localhost:1313//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 bricolage grotesque,-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#fffdfa;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}header{display:flex;justify-content:space-between;align-items:center;position:relative;padding-bottom:1rem}header .burger{display:none;background:0 0;border:none;padding:0;cursor:pointer}header .burger span{display:block;width:25px;height:3px;background:#000;margin:5px 0;transition:all .3s ease}@media(max-width:768px){header .burger{display:block;z-index:2}header .nav-menu{position:fixed;top:0;right:-100%;width:100%;height:100vh;background:#fffdfa;padding:2rem;transition:.3s ease;z-index:1}header .nav-menu.active{right:0}header .nav-menu ul{flex-direction:column;align-items:center;width:100%}header .nav-menu ul li{display:block;font-size:1.2rem;border-bottom:1px dotted #000;height:50px;display:flex;justify-content:center;align-items:center}header.menu-open .burger span:first-child{transform:rotate(45deg)translate(5px,6px)}header.menu-open .burger span:nth-child(2){opacity:0}header.menu-open .burger span:last-child{transform:rotate(-45deg)translate(5px,-6px)}}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none;overflow:visible;overflow-wrap:anywhere}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2}</style>
+  
+    
+    
+    
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "cursos",
+        "name": "Paradigmas de Programação",
+        "headline": "Paradigmas de Programação",
+        "alternativeHeadline": "",
+        "description": "\u003cp\u003e\u003ca href=\u0022#dia-hora-e-local\u0022\u003eDia, Hora e Local\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#objetivo\u0022\u003eObjetivo\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#t%c3%b3picos\u0022\u003eTópicos\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#bibliografia\u0022\u003eBibliografia\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#avalia%c3%a7%c3%a3o\u0022\u003eAvaliação\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#exerc%c3%adcios\u0022\u003eExercícios\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#cronograma\u0022\u003eCronograma\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#ferramentas\u0022\u003eFerramentas\u003c\/a\u003e\n\u003cbr\u003e\n\u003ca href=\u0022#material-complementar\u0022\u003eMaterial Complementar\u003c\/a\u003e\n\u003c\/p\u003e\n\u003ch2 id=\u0022dia-hora-e-local\u0022\u003eDia, Hora e Local\u003c\/h2\u003e\n\u003cp\u003e4as e 6as, de 14-16h (Sala 4).\u003c\/p\u003e\n\u003ch2 id=\u0022objetivo\u0022\u003eObjetivo\u003c\/h2\u003e\n\u003cp\u003eO objetivo desta disciplina é apresentar conceitos fundamentais de linguagens de programação, os quais são importantíssimos para fundamentar um bom programador. De forma a absorver melhor o conhecimento apresentado, todos os paradigmas apresentados serão também requisitados de forma prática.\u003c\/p\u003e\n\u003ch2 id=\u0022tópicos\u0022\u003eTópicos\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eO quê? Por quê? Como? Quando? Onde?\u003c\/li\u003e\n\u003cli\u003eApresentação dos tópicos, critérios de avaliação, presença\u003c\/li\u003e\n\u003cli\u003eHistórico\u003c\/li\u003e\n\u003cli\u003eGramáticas e BNF\u003c\/li\u003e\n\u003cli\u003eTipos de Análise\u003c\/li\u003e\n\u003cli\u003eSemântica Formal\u003c\/li\u003e\n\u003cli\u003eEsquemas de Tradução (Compilação, Interpretação, \u0026hellip;)\u003c\/li\u003e\n\u003cli\u003eNomes, Escopos e Tempo de Amarração\u003c\/li\u003e\n\u003cli\u003eTipos de Alocação\u003c\/li\u003e\n\u003cli\u003eTipos de Dados\u003c\/li\u003e\n\u003cli\u003eColeta de Lixo\u003c\/li\u003e\n\u003cli\u003eControle de Fluxo\u003c\/li\u003e\n\u003cli\u003eContinuações\u003c\/li\u003e\n\u003cli\u003eSubrotinas e Passagem de Parâmetros\u003c\/li\u003e\n\u003cli\u003eSobrecarga de Procedimentos, Módulos Genéricos\u003c\/li\u003e\n\u003cli\u003eCorotinas\u003c\/li\u003e\n\u003cli\u003eTAD\u003c\/li\u003e\n\u003cli\u003eOrientação a Objetos (Herança, Encapsulamento, Classe abstrata, Polimorfismo)\u003c\/li\u003e\n\u003cli\u003eTratamento de Exceção\u003c\/li\u003e\n\u003cli\u003eProgramação Funcional\u003c\/li\u003e\n\u003cli\u003eProgramação Lógica (Backtracking, Resolução, Unificação e Listas)\u003c\/li\u003e\n\u003cli\u003eProgramação em Linguagens de Script\u003c\/li\u003e\n\u003cli\u003eConcorrência\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022bibliografia\u0022\u003eBibliografia\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eMichael L. Scott, Programming Language Pragmatics, Morgan Kaufmann.\u003c\/li\u003e\n\u003cli\u003eRobert W. Sebesta, Concepts of Programming Language, Addison Wesley.\u003c\/li\u003e\n\u003cli\u003ePeter Sestoft, Programming Language Concepts, Springer.\u003c\/li\u003e\n\u003cli\u003e\u003ca href=\u0022http:\/\/haskell.tailorfontela.com.br\/\u0022 target=\u0022_blank\u0022 rel=\u0022noopener\u0022\u003eMiran Lipovaca, Aprender Haskell será um Grande Bem para Você\u003c\/a\u003e\n\u003c\/li\u003e\n\u003cli\u003e\u003ca href=\u0022http:\/\/eloquentjavascript.net\/\u0022 target=\u0022_blank\u0022 rel=\u0022noopener\u0022\u003eMarijn Haverbeke, Eloquent JavaScript\u003c\/a\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch2 id=\u0022avaliação\u0022\u003eAvaliação\u003c\/h2\u003e\n\u003cp\u003eMédia final = (2*(Prova1 \u002b Prova2) \u002b Média-Trabalhos) \/ 5\u003c\/p\u003e",
+        "inLanguage": "pt-BR",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/cursos\/paradigmas\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "copyrightHolder" : "Site do ~Bazilio",
+        "copyrightYear" : "2025",
+        "dateCreated": "2025-07-29T00:00:00.00Z",
+        "datePublished": "2025-07-29T00:00:00.00Z",
+        "dateModified": "2025-07-29T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Site do ~Bazilio",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/assets\/favicon.ico",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": "http://localhost:1313/assets/favicon.ico",
+        "url" : "http:\/\/localhost:1313\/cursos\/paradigmas\/",
+        "wordCount" : "425",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+    </script>
+     
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-menu');
+            const header = document.querySelector('header');
+        
+            if (burger) {
+                burger.addEventListener('click', () => {
+                    nav.classList.toggle('active');
+                    header.classList.toggle('menu-open');
+                });
+        
+                
+                document.addEventListener('click', (e) => {
+                    if (!header.contains(e.target) && nav.classList.contains('active')) {
+                        nav.classList.remove('active');
+                        header.classList.remove('menu-open');
+                    }
+                });
+            }
+        });
+    </script> 
+  </head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    
+<header>
+  <p style="padding: 0;margin: 0;">
+    <a href="http://localhost:1313/">
+      <b>Site do ~Bazilio</b>
+      <span class="text-stone-500 animate-blink">▮</span>
+    </a>
+  </p>
+
+  
+  <button class="burger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav class="nav-menu">
+    <ul style="padding: 0;margin: 0;">
+      
+      
+        <li class="">
+          <a href="/cursos/"
+
+          ><span>Cursos</span></a>
+        </li>
+      
+        <li class="">
+          <a href="/livros/programandonacozinha/"
+ target="_blank" 
+          ><span>Livro</span></a>
+        </li>
+      
+        <li class="">
+          <a href="/posts/"
+
+          ><span>Blog</span></a>
+        </li>
+      
+        <li class="">
+          <a href="https://buscatextual.cnpq.br/buscatextual/cv?id=2718845038912088"
+ target="_blank" 
+          ><span>Lattes</span></a>
+        </li>
+      
+        <li class="">
+          <a href="/about/"
+
+          ><span>Sobre</span></a>
+        </li>
+      
+    </ul>
+  </nav>
+  
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+    <section>
+      <h2 class="post">Paradigmas de Programação</h2>
+      <p><a href="#dia-hora-e-local">Dia, Hora e Local</a>
+<br>
+<a href="#objetivo">Objetivo</a>
+<br>
+<a href="#t%c3%b3picos">Tópicos</a>
+<br>
+<a href="#bibliografia">Bibliografia</a>
+<br>
+<a href="#avalia%c3%a7%c3%a3o">Avaliação</a>
+<br>
+<a href="#exerc%c3%adcios">Exercícios</a>
+<br>
+<a href="#cronograma">Cronograma</a>
+<br>
+<a href="#ferramentas">Ferramentas</a>
+<br>
+<a href="#material-complementar">Material Complementar</a>
+</p>
+<h2 id="dia-hora-e-local">Dia, Hora e Local</h2>
+<p>4as e 6as, de 14-16h (Sala 4).</p>
+<h2 id="objetivo">Objetivo</h2>
+<p>O objetivo desta disciplina é apresentar conceitos fundamentais de linguagens de programação, os quais são importantíssimos para fundamentar um bom programador. De forma a absorver melhor o conhecimento apresentado, todos os paradigmas apresentados serão também requisitados de forma prática.</p>
+<h2 id="tópicos">Tópicos</h2>
+<ul>
+<li>O quê? Por quê? Como? Quando? Onde?</li>
+<li>Apresentação dos tópicos, critérios de avaliação, presença</li>
+<li>Histórico</li>
+<li>Gramáticas e BNF</li>
+<li>Tipos de Análise</li>
+<li>Semântica Formal</li>
+<li>Esquemas de Tradução (Compilação, Interpretação, &hellip;)</li>
+<li>Nomes, Escopos e Tempo de Amarração</li>
+<li>Tipos de Alocação</li>
+<li>Tipos de Dados</li>
+<li>Coleta de Lixo</li>
+<li>Controle de Fluxo</li>
+<li>Continuações</li>
+<li>Subrotinas e Passagem de Parâmetros</li>
+<li>Sobrecarga de Procedimentos, Módulos Genéricos</li>
+<li>Corotinas</li>
+<li>TAD</li>
+<li>Orientação a Objetos (Herança, Encapsulamento, Classe abstrata, Polimorfismo)</li>
+<li>Tratamento de Exceção</li>
+<li>Programação Funcional</li>
+<li>Programação Lógica (Backtracking, Resolução, Unificação e Listas)</li>
+<li>Programação em Linguagens de Script</li>
+<li>Concorrência</li>
+</ul>
+<h2 id="bibliografia">Bibliografia</h2>
+<ul>
+<li>Michael L. Scott, Programming Language Pragmatics, Morgan Kaufmann.</li>
+<li>Robert W. Sebesta, Concepts of Programming Language, Addison Wesley.</li>
+<li>Peter Sestoft, Programming Language Concepts, Springer.</li>
+<li><a href="http://haskell.tailorfontela.com.br/" target="_blank" rel="noopener">Miran Lipovaca, Aprender Haskell será um Grande Bem para Você</a>
+</li>
+<li><a href="http://eloquentjavascript.net/" target="_blank" rel="noopener">Marijn Haverbeke, Eloquent JavaScript</a>
+</li>
+</ul>
+<h2 id="avaliação">Avaliação</h2>
+<p>Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5</p>
+<h2 id="exercícios">Exercícios</h2>
+<ul>
+<li><a href="Trabalhos.pdf">Trabalhos</a>
+</li>
+<li><a href="ListaQuestoesLP.pdf">Exercícios sobre Conceitos de Linguagens de Programação</a>
+</li>
+<li><a href="ListaExerciciosProgFuncional.pdf">Lista de Prog. Funcional</a>
+</li>
+<li><a href="ListaExerciciosProgOO.pdf">Lista de Prog. OO</a>
+</li>
+</ul>
+<h2 id="cronograma">Cronograma</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Assunto</th>
+          <th>Dia</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Apresentação, <a href="Introducao.pdf">Introdução</a>
+ e Avaliação</td>
+          <td>20/ago</td>
+      </tr>
+      <tr>
+          <td><a href="Traducao.pdf">Tradução (Compilação, Interpretação, &hellip;)</a>
+</td>
+          <td>22/ago</td>
+      </tr>
+      <tr>
+          <td><a href="Analise.pdf">Tipos de Análise de um Compilador, Gramáticas e BNF</a>
+</td>
+          <td>27/ago</td>
+      </tr>
+      <tr>
+          <td><a href="Vinculacoes.pdf">Tempos de amarração</a>
+</td>
+          <td>29/ago</td>
+      </tr>
+      <tr>
+          <td>Tipos de alocação, <a href="ColetaDeLixo.pdf">Coleta de lixo</a>
+, Tipos de escopo</td>
+          <td>03/set</td>
+      </tr>
+      <tr>
+          <td><a href="Expressoes.pdf">Expressões</a>
+</td>
+          <td>05/set</td>
+      </tr>
+      <tr>
+          <td><a href="FluxoControle.pdf">Fluxo de Controle</a>
+</td>
+          <td>10/set</td>
+      </tr>
+      <tr>
+          <td><a href="Tipos.pdf">Tipos de Dados</a>
+</td>
+          <td>12/set</td>
+      </tr>
+      <tr>
+          <td><a href="Parametros.pdf">Rotinas, Passagem de Parâmetros</a>
+</td>
+          <td>17/set</td>
+      </tr>
+      <tr>
+          <td>Rotinas Genéricas</td>
+          <td>19/set</td>
+      </tr>
+      <tr>
+          <td>Revisão</td>
+          <td>24/set</td>
+      </tr>
+      <tr>
+          <td>Prova</td>
+          <td>26/set</td>
+      </tr>
+      <tr>
+          <td><a href="Classes.ppt">Orientação a Objetos (Classes, Encapsulamento)</a>
+</td>
+          <td>01/out</td>
+      </tr>
+      <tr>
+          <td><a href="Heranca.ppt">Orientação a Objetos (Herança)</a>
+</td>
+          <td>03/out</td>
+      </tr>
+      <tr>
+          <td>Orientação a Objetos (Classe Abstrata e Interfaces)</td>
+          <td>08/out</td>
+      </tr>
+      <tr>
+          <td>Orientação a Objetos (Polimorfismo)</td>
+          <td>10/out</td>
+      </tr>
+      <tr>
+          <td>Feriado</td>
+          <td>15/out</td>
+      </tr>
+      <tr>
+          <td><a href="Associacao.pdf">Associação</a>
+</td>
+          <td>17/out</td>
+      </tr>
+      <tr>
+          <td><a href="ProgFuncional.pdf">Programação Funcional</a>
+</td>
+          <td>22/out</td>
+      </tr>
+      <tr>
+          <td>Programação Funcional</td>
+          <td>24/out</td>
+      </tr>
+      <tr>
+          <td>Programação Funcional</td>
+          <td>29/out</td>
+      </tr>
+      <tr>
+          <td>Programação Funcional</td>
+          <td>31/out</td>
+      </tr>
+      <tr>
+          <td>Programação Funcional</td>
+          <td>05/nov</td>
+      </tr>
+      <tr>
+          <td>Programação Funcional</td>
+          <td>07/nov</td>
+      </tr>
+      <tr>
+          <td>Programação Funcional</td>
+          <td>12/nov</td>
+      </tr>
+      <tr>
+          <td>Revisão</td>
+          <td>14/nov</td>
+      </tr>
+      <tr>
+          <td>Prova</td>
+          <td>19/nov</td>
+      </tr>
+      <tr>
+          <td>Ponto Facultativo (Provável)</td>
+          <td>21/nov</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>26/nov</td>
+      </tr>
+      <tr>
+          <td>VR</td>
+          <td>28/nov</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>03/dez</td>
+      </tr>
+      <tr>
+          <td>VS</td>
+          <td>05/dez</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>10/dez</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>12/dez</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>17/dez</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="ferramentas">Ferramentas</h2>
+<ul>
+<li><a href="https://bnfplayground.pauliankline.com/" target="_blank" rel="noopener">Ferramenta para estudar/compreender BNF</a>
+</li>
+<li><a href="https://pythontutor.com/visualize.html#mode=edit" target="_blank" rel="noopener">Ferramenta para exibição de pilha de ativação</a>
+</li>
+<li><a href="https://igorfrotte.github.io/heapAllocation/" target="_blank" rel="noopener">Ferramenta para simulação de manipulação do HEAP (créditos para o ex-aluno Igor Frotté)</a>
+</li>
+<li><a href="https://visualgo.net/en" target="_blank" rel="noopener">Visualização de Algoritmos e Estruturas de Dados</a>
+</li>
+<li><a href="https://spin.atomicobject.com/visualizing-garbage-collection-algorithms/" target="_blank" rel="noopener">Visualização de Algoritmos e Coleta de Lixo</a>
+</li>
+</ul>
+<h2 id="material-complementar">Material Complementar</h2>
+<ul>
+<li><a href="https://github.com/carlosbazilio/trabalho_lp" target="_blank" rel="noopener">Repositório para submissão de trabalhos</a>
+</li>
+<li><a href="https://github.com/carlosbazilio/lp" target="_blank" rel="noopener">Códigos discutidos em sala em diferentes linguagens: GitHub</a>
+</li>
+<li><a href="http://www.computerhistory.org/timeline/" target="_blank" rel="noopener">Timeline de linguagens e afins</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=XJC5WB2Bwrc" target="_blank" rel="noopener">Compilando Várias Linguagens Simultaneamente</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=FcYc9vOdwyM" target="_blank" rel="noopener">Padrão SOLID</a>
+</li>
+<li><a href="SemanticaTipos.pdf">Semântica</a>
+</li>
+<li><a href="https://www.cecierj.edu.br/videoaulas/" target="_blank" rel="noopener">Video-aulas sobre Prog. OO em Java (Programação III/Cederj)</a>
+</li>
+<li><a href="Scala.pdf">Apresentação de Scala</a>
+</li>
+<li><a href="IntroducaoProgPar.pdf">Linguagens/Bibliotecas para a Prog. Paralela</a>
+</li>
+</ul>
+
+      
+      <div class="post-date">
+        <span class="g time">29/07/2025 </span> &#8729;
+         
+      </div>
+      
+    </section>
+    
+  </div>
+</main>
+</body>
+</html>
