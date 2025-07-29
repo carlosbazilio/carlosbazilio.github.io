@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'pt-BR'
 title = 'Site do ~Bazilio'
-theme = 'maverick'
+theme = 'meumaverick'
 
 [permalinks]
   pages = "/:slug"
@@ -14,7 +14,7 @@ theme = 'maverick'
 
   [params.comments]
     enabled = true
-    githubRepo = 'canhtran/maverick'
+    githubRepo = 'carlosbazilio/maverick'
     theme = 'github-light'
 
 [menu]
