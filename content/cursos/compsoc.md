@@ -47,6 +47,10 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 - Privacidade
 - Moedas Digitais
 - Internet das Coisas
+- Soft Skills
+- Obsolescência Programada
+- Saúde Mental
+- Arte e Tecnologia
 
 ## Bibliografia
 
