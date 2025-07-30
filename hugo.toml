@@ -30,6 +30,11 @@ theme = 'meumaverick'
     weight = -130
     target = "_blank"
   [[menu.main]]
+    identifier = "projetos"
+    name = "Projetos"
+    url = "/projetos"
+    weight = -140
+  [[menu.main]]
     identifier = "posts"
     name = "Blog"
     url = "/posts/"
