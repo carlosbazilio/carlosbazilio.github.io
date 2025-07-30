@@ -2,7 +2,7 @@
 
 ## Prof. Carlos Bazilio 
 
-Contato: carlosbazilio at id dot uff dot br
+Contato: carlosbazilio @ id.uff.br
 
 Depto. de Computação
 
