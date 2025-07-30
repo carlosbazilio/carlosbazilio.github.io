@@ -65,23 +65,24 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 
 |Assunto|Dia|
 | ----- |---|
-|[Tradução (Compilação, Interpretação, ...)](Traducao.pdf)              |22/ago|
-|[Tempos de amarração](Vinculacoes.pdf)                                 |29/ago|
-|[Expressões](Expressoes.pdf)                                           |05/set|
-|[Tipos de Dados](Tipos.pdf)                                            |12/set|
-|Rotinas Genéricas 	                                                    |19/set|
-|Prova 	                                                                |26/set|
-|[Orientação a Objetos (Herança)](Heranca.ppt)                          |03/out|
-|Orientação a Objetos (Polimorfismo) 	                                |10/out|
-|[Associação](Associacao.pdf)                                           |17/out|
-|Programação Funcional 	                                                |24/out|
-|Programação Funcional                                                  |31/out|
-|Programação Funcional 	                                                |07/nov|
-|Revisão 	                                                            |14/nov|
-|Ponto Facultativo (Provável)                                           |21/nov|
-|VR    	                                                                |28/nov|
-|VS	                                                                    |05/dez|
-|	                                                                    |12/dez|
+|		|22/ago|
+|		|29/ago|
+|		|05/set|
+|		|12/set|
+|		|19/set|
+|		|26/set|
+|		|03/out|
+|		|10/out|
+|		|17/out|
+|		|24/out|
+|		|31/out|
+|		|07/nov|
+|		|14/nov|
+|		|21/nov|
+|		|28/nov|
+|		|05/dez|
+|		|12/dez|
+
 
 ## Ferramentas
 
