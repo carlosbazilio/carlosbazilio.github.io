@@ -78,7 +78,7 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 |		|03/out|
 |		|10/out|
 |		|17/out|
-|		|24/out|
+|*Agenda Acadêmica*		|24/out|
 |		|31/out|
 |		|07/nov|
 |		|14/nov|

@@ -88,8 +88,8 @@ Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5
 |Orientação a Objetos (Polimorfismo) 	                                |10/out|
 |Feriado                                                                |15/out|
 |[Associação](Associacao.pdf)                                           |17/out|
-|[Programação Funcional](ProgFuncional.pdf)                             |22/out|
-|Programação Funcional 	                                                |24/out|
+|[Programação Funcional](ProgFuncional.pdf) - *Agenda Acadêmica*        |22/out|
+|Programação Funcional - *Agenda Acadêmica*                             |24/out|
 |Programação Funcional 	                                                |29/out|
 |Programação Funcional                                                  |31/out|
 |Programação Funcional 	                                                |05/nov|
