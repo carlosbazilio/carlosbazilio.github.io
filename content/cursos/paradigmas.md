@@ -120,11 +120,12 @@ Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5
 
 - [Repositório para submissão de trabalhos](https://github.com/carlosbazilio/trabalho_lp)
 - [Códigos discutidos em sala em diferentes linguagens: GitHub](https://github.com/carlosbazilio/lp)
+- [Universidade Brasileira Livre em Computação](https://github.com/Universidade-Livre/ciencia-da-computacao)
 - [Timeline de linguagens e afins](http://www.computerhistory.org/timeline/)
 - [Compilando Várias Linguagens Simultaneamente](https://www.youtube.com/watch?v=XJC5WB2Bwrc)
+- [Video-aulas sobre Prog. OO em Java (Programação III/Cederj)](https://www.cecierj.edu.br/videoaulas/)
 - [Padrão SOLID](https://www.youtube.com/watch?v=FcYc9vOdwyM)
 - [Semântica](SemanticaTipos.pdf)
-- [Video-aulas sobre Prog. OO em Java (Programação III/Cederj)](https://www.cecierj.edu.br/videoaulas/)
 - [Apresentação de Scala](Scala.pdf)
 - [Linguagens/Bibliotecas para a Prog. Paralela](IntroducaoProgPar.pdf)
 
