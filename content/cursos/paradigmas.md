@@ -54,6 +54,8 @@ O objetivo desta disciplina é apresentar conceitos fundamentais de linguagens d
 - Peter Sestoft, Programming Language Concepts, Springer.
 - [Miran Lipovaca, Aprender Haskell será um Grande Bem para Você](http://haskell.tailorfontela.com.br/)
 - [Marijn Haverbeke, Eloquent JavaScript](http://eloquentjavascript.net/)
+- Aditya Y. Bhargava, Grokking Algorithms, Manning Shelter Island.
+- [Carlos Bazilio, Programando na Cozinha](https://carlosbazilio.github.io/livros/programandonacozinha/).
 
 ## Avaliação
 
