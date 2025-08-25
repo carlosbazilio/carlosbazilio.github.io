@@ -1,6 +1,6 @@
 ---
 title: Paradigmas de Programação
-date: "2025-07-29"
+date: "2025-08-25"
 ---
 
 [Dia, Hora e Local](#dia-hora-e-local)\
@@ -70,43 +70,43 @@ Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5
 
 ## Cronograma
 
-|Assunto|Dia|
-| ----- |---|
-|Apresentação, [Introdução](Introducao.pdf) e Avaliação 	            |20/ago|
-|[Tradução (Compilação, Interpretação, ...)](Traducao.pdf)              |22/ago|
-|[Tipos de Análise de um Compilador, Gramáticas e BNF](Analise.pdf)     |27/ago|
-|[Tempos de amarração](Vinculacoes.pdf)                                 |29/ago|
-|Tipos de alocação, [Coleta de lixo](ColetaDeLixo.pdf), Tipos de escopo |03/set|
-|[Expressões](Expressoes.pdf)                                           |05/set|
-|[Fluxo de Controle](FluxoControle.pdf)	                                |10/set|
-|[Tipos de Dados](Tipos.pdf)                                            |12/set|
-|[Rotinas, Passagem de Parâmetros](Parametros.pdf)	                    |17/set|
-|Rotinas Genéricas 	                                                    |19/set|
-|Revisão 	                                                            |24/set|
-|Prova 	                                                                |26/set|
-|[Orientação a Objetos (Classes, Encapsulamento)](Classes.ppt)          |01/out|
-|[Orientação a Objetos (Herança)](Heranca.ppt)                          |03/out|
-|Orientação a Objetos (Classe Abstrata e Interfaces) 	                |08/out|
-|Orientação a Objetos (Polimorfismo) 	                                |10/out|
-|Feriado                                                                |15/out|
-|[Associação](Associacao.pdf)                                           |17/out|
-|[Programação Funcional](ProgFuncional.pdf) - *Agenda Acadêmica*        |22/out|
-|Programação Funcional - *Agenda Acadêmica*                             |24/out|
-|Programação Funcional 	                                                |29/out|
-|Programação Funcional                                                  |31/out|
-|Programação Funcional 	                                                |05/nov|
-|Programação Funcional 	                                                |07/nov|
-|Programação Funcional 	                                                |12/nov|
-|Revisão 	                                                            |14/nov|
-|Prova 	                                                                |19/nov|
-|Ponto Facultativo (Provável)                                           |21/nov|
-|        	                                                            |26/nov|
-|VR    	                                                                |28/nov|
-| 	                                                                    |03/dez|
-|VS	                                                                    |05/dez|
-| 	                                                                    |10/dez|
-|	                                                                    |12/dez|
-|	                                                                    |17/dez|
+|Assunto|Extra|Dia|
+| ----- | --- |---|
+|Apresentação, [Introdução](Introducao.pdf) e Avaliação 	            |[Vídeo-Aula](https://www.youtube.com/watch?v=WCpnAM-dbKU)|20/ago|
+|[Tradução (Compilação, Interpretação, ...)](Traducao.pdf)              |[Vídeo-Aula](https://www.youtube.com/watch?v=VKYapxiJjsY)|22/ago|
+|[Tipos de Análise de um Compilador, Gramáticas e BNF](Analise.pdf)     |[Vídeo-Aula](https://www.youtube.com/watch?v=XktEoEy0JtQ)|27/ago|
+|[Tempos de amarração](Vinculacoes.pdf)                                 |[Vídeo-Aula](https://www.youtube.com/watch?v=hHUkt8-b2TA)|29/ago|
+|Tipos de alocação, [Coleta de lixo](ColetaDeLixo.pdf), Tipos de escopo |[Vídeo-Aula](https://www.youtube.com/watch?v=i2wdYOpLmDw)|03/set|
+|[Expressões](Expressoes.pdf)                                           ||05/set|
+|[Fluxo de Controle](FluxoControle.pdf)	                                ||10/set|
+|[Tipos de Dados](Tipos.pdf)                                            ||12/set|
+|[Rotinas, Passagem de Parâmetros](Parametros.pdf)	                    |[Vídeo-Aula](https://www.youtube.com/watch?v=OqscMcRa2jk)|17/set|
+|Rotinas Genéricas 	                                                    |[Vídeo-Aula](https://www.youtube.com/watch?v=L2QEcw1f1Ro)|19/set|
+|Revisão 	                                                            ||24/set|
+|Prova 	                                                                ||26/set|
+|[Orientação a Objetos (Classes, Encapsulamento)](Classes.ppt)          |[Vídeo-Aula](https://www.youtube.com/watch?v=oWVQEru_1M4)|01/out|
+|[Orientação a Objetos (Herança)](Heranca.ppt)                          ||03/out|
+|Orientação a Objetos (Classe Abstrata e Interfaces) 	                ||08/out|
+|Orientação a Objetos (Polimorfismo) 	                                ||10/out|
+|Feriado                                                                ||15/out|
+|[Associação](Associacao.pdf)                                           ||17/out|
+|[Programação Funcional](ProgFuncional.pdf) - *Agenda Acadêmica*        |[Vídeo-Aula](https://www.youtube.com/watch?v=CPAy21IyWb0)|22/out|
+|Programação Funcional - *Agenda Acadêmica*                             ||24/out|
+|Programação Funcional 	                                                ||29/out|
+|Programação Funcional                                                  ||31/out|
+|Programação Funcional 	                                                ||05/nov|
+|Programação Funcional 	                                                ||07/nov|
+|Programação Funcional 	                                                ||12/nov|
+|Revisão 	                                                            ||14/nov|
+|Prova 	                                                                ||19/nov|
+|Ponto Facultativo (Provável)                                           ||21/nov|
+|        	                                                            ||26/nov|
+|VR    	                                                                ||28/nov|
+| 	                                                                    ||03/dez|
+|VS	                                                                    ||05/dez|
+| 	                                                                    ||10/dez|
+|	                                                                    ||12/dez|
+|	                                                                    ||17/dez|
 
 ## Ferramentas
 
