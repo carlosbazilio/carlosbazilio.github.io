@@ -1,4 +1,4 @@
-
++++ author = "Carlos Bazilio" title = "Conceição Evaristo" date = "2025-08-31" description = "Sobre a Conceição Evaristo e lembranças de leituras." tags = [ "leitura", "livros", "dicas", "letramento" ] +++
 
 Há um tempinho atrás, uma aluna me perguntou o que fazia para lembrar de tantos detalhes do que lia. Lembrei de palestras de alguns neurocientistas, pedagogos, e resumi em algumas dicas: 1) Fazer associações do que lemos com outros saberes que já possuímos; 2) Comentar, discutir o que lemos, com outras pessoas, como uma forma de revisitarmos o que lemos e criarmos nossas próprias interpretações; 3) Eventualmente ler os textos mais de uma vez (confesso que esta dica é daquelas: “Não vi o filme, mas disseram que é muito bom!” Rsrs).
 
