@@ -80,31 +80,31 @@ Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5
 |[Expressões](Expressoes.pdf)                                           ||05/set|
 |[Fluxo de Controle](FluxoControle.pdf)	                                ||10/set|
 |[Tipos de Dados](Tipos.pdf)                                            ||12/set|
-|[Rotinas, Passagem de Parâmetros](Parametros.pdf)	                    |[Vídeo-Aula](https://www.youtube.com/watch?v=OqscMcRa2jk)|17/set|
-|Rotinas Genéricas 	                                                    |[Vídeo-Aula](https://www.youtube.com/watch?v=L2QEcw1f1Ro)|19/set|
-|Revisão 	                                                            ||24/set|
-|Prova 	                                                                ||26/set|
-|[Orientação a Objetos (Classes, Encapsulamento)](Classes.ppt)          |[Vídeo-Aula](https://www.youtube.com/watch?v=oWVQEru_1M4)|01/out|
-|[Orientação a Objetos (Herança)](Heranca.ppt)                          ||03/out|
-|Orientação a Objetos (Classe Abstrata e Interfaces) 	                ||08/out|
-|Orientação a Objetos (Polimorfismo) 	                                ||10/out|
+|*Sincronização do Cronograma*                                          ||17/set|
+|*Sincronização do Cronograma*               	                        ||19/set|
+|[Rotinas, Passagem de Parâmetros](Parametros.pdf)	                    |[Vídeo-Aula](https://www.youtube.com/watch?v=OqscMcRa2jk)|24/set|
+|Rotinas Genéricas 	                                                    |[Vídeo-Aula](https://www.youtube.com/watch?v=L2QEcw1f1Ro)|26/set|
+|Revisão 	                                                            ||01/out|
+|Prova 	                                                                ||03/out|
+|[Orientação a Objetos (Classes, Encapsulamento)](Classes.ppt)          |[Vídeo-Aula](https://www.youtube.com/watch?v=oWVQEru_1M4)|08/out|
+|[Orientação a Objetos (Herança)](Heranca.ppt)                          ||10/out|
 |Feriado                                                                ||15/out|
-|[Associação](Associacao.pdf)                                           ||17/out|
-|[Programação Funcional](ProgFuncional.pdf) - *Agenda Acadêmica*        |[Vídeo-Aula](https://www.youtube.com/watch?v=CPAy21IyWb0)|22/out|
-|Programação Funcional - *Agenda Acadêmica*                             ||24/out|
-|Programação Funcional 	                                                ||29/out|
+|Orientação a Objetos (Classe Abstrata e Interfaces)                    ||17/out|
+|Orientação a Objetos (Polimorfismo) - *Agenda Acadêmica*               ||22/out|
+|[Associação](Associacao.pdf) - *Agenda Acadêmica*                      ||24/out|
+|[Programação Funcional](ProgFuncional.pdf) 	                        |[Vídeo-Aula](https://www.youtube.com/watch?v=CPAy21IyWb0)|29/out|
 |Programação Funcional                                                  ||31/out|
 |Programação Funcional 	                                                ||05/nov|
-|Programação Funcional 	                                                ||07/nov|
+|Programação Funcional                                                  ||07/nov|
 |Programação Funcional 	                                                ||12/nov|
-|Revisão 	                                                            ||14/nov|
-|Prova 	                                                                ||19/nov|
-|Ponto Facultativo (Provável)                                           ||21/nov|
-|        	                                                            ||26/nov|
-|VR    	                                                                ||28/nov|
-| 	                                                                    ||03/dez|
-|VS	                                                                    ||05/dez|
-| 	                                                                    ||10/dez|
+|Programação Funcional 	                                                ||14/nov|
+|Programação Funcional 	                                                ||19/nov|
+|Ponto Facultativo (Provável) 	                                        ||21/nov|
+|Prova 	                                                                ||26/nov|
+|                                                                       ||28/nov|
+|VR        	                                                            ||03/dez|
+|    	                                                                ||05/dez|
+|VS 	                                                                ||10/dez|
 |	                                                                    ||12/dez|
 |	                                                                    ||17/dez|
 
