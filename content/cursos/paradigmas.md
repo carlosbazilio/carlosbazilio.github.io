@@ -115,6 +115,7 @@ Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5
 - [Ferramenta para simulação de manipulação do HEAP (créditos para o ex-aluno Igor Frotté)](https://igorfrotte.github.io/heapAllocation/)
 - [Visualização de Algoritmos e Estruturas de Dados](https://visualgo.net/en)
 - [Visualização de Algoritmos e Coleta de Lixo](https://spin.atomicobject.com/visualizing-garbage-collection-algorithms/)
+- [Guia para Aprendizado de Programação Funcional](https://roadmap.sh/r/programacao-funcional)
 
 ## Material Complementar
 
