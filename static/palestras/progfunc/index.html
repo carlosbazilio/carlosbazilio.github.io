@@ -1,0 +1,561 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Programação Funcional</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<style>
+			.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+				text-transform: none;
+			}
+			/*.reveal canvas {
+				position:fixed; top:0; left:0;
+			}*/
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-menu-title="Capa">
+					<a href="http://www.ic.uff.br/~bazilio/palestras/progfunc" style="color:green;text-align:center;text-shadow: 3px 2px brown;font-size: 70px;">Seja Fit, Programe Funcionalmente!<p><br/></p></a>
+					<p>
+						<a href="http://www.ic.uff.br/~bazilio">Prof. Carlos Bazilio, UFF</a><br/>
+						<a href="mailto:carlosbazilio@id.uff.br">carlosbazilio@id.uff.br</a><br/>
+						<a href="http://www.ic.uff.br/~bazilio/palestras/progfunc">http://www.ic.uff.br/~bazilio/palestras/progfunc</a>
+					</p>
+				</section>
+				<section data-menu-title="Capa Animada">
+					<a href="http://www.ic.uff.br/~bazilio/palestras/progfunc" style="color:green;text-align:center;text-shadow: 3px 2px brown;font-size: 70px;">Seja Fit, <span class="reveal_alternate" values="Alimente-se|Treine|Programe"></span> <p>Funcionalmente</p><p class="fragment fade-in">na Cozinha!</p></a>
+					<p>
+						<a href="http://www.ic.uff.br/~bazilio">Prof. Carlos Bazilio, UFF</a><br/>
+						<a href="mailto:carlosbazilio@id.uff.br">carlosbazilio@id.uff.br</a><br/>
+						<a href="http://www.ic.uff.br/~bazilio/palestras/progfunc">http://www.ic.uff.br/~bazilio/palestras/progfunc</a>
+					</p>
+				</section>
+				<section data-menu-title="Motivação">
+					<section>
+						<p>Motivação</p>
+					</section>
+					<section>
+						<img src="img/programando-na-cozinha.jpg" width="50%">
+					</section>
+					<section>
+						<p>Java 8</p>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							List &lt;Pessoa&gt;pessoas = new ArrayList&lt;Pessoa&gt;();
+							pessoas.add(new Pessoa("Fulano", "Silva", 40, 75.0));
+							pessoas.add(new Pessoa("Ciclano", "Silva", 25, 120));
+							pessoas.add(new Pessoa("Beltrano", "Silva", 70, 55));
+						</code></pre>
+						<pre class="fragment fade-in-then-semi-out"><code data-trim class="hljs">
+							Iterator &lt;Pessoa&gt;it = pessoas.iterator();
+							while (it.hasNext()) {
+								System.out.println(it.next());
+							}
+						</code></pre>
+						<pre class="fragment fade-in-then-semi-out"><code data-trim class="hljs">
+							for (Pessoa p : pessoas)
+								System.out.println(p);
+						</code></pre>
+						<pre class="fragment fade-in-then-semi-out"><code data-trim class="hljs">
+							pessoas.forEach(System.out::println);
+						</code></pre>
+					</section>
+					<section>
+						<p>Quicksort em Haskell</p>
+						<pre>
+							<code data-trim class="hljs">
+								quicksort []     = []
+								quicksort (x:xs) = quicksort [y | y&lt;-xs, y&lt;x ] ++
+								                             [x              ] ++
+								                   quicksort [y | y&lt;-xs, y&gt;=x]
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p>Linguagens que se inspiraram em conceitos funcionais</p>
+						<img src="img/lp_funcionais.jpg" style="height:550px;">
+					</section>
+					<section data-background-iframe="timeline.html">
+					</section>
+				</section>
+				<section data-menu-title="Analogias Básicas">
+					<section>
+						<p>Analogias Básicas do Livro</p>
+					</section>
+					<section data-background-iframe="http://www2.ic.uff.br/~bazilio/programandonacozinha/introducao.html"
+					         data-background-interactive>
+					</section>
+				</section>
+				<section data-menu-title="Conceitos">
+					<p>Conceitos</p>
+				</section>
+				<section>
+					<section data-menu-title="Imutabilidade">
+						<p class="destaque">Imutabilidade</p>
+					</section>
+					<section data-auto-animate>
+						<p class="fragment fade-in-then-semi-out">x = 0</p>
+						<p class="fragment fade-in">x = <span class="fragment highlight-red">x</span> + 1</p>
+						<p class="fragment fade-in">x - <span style="color:red;">x</span> = 1</p>
+					</section>
+					<section data-auto-animate>
+						<p>x = 0</p>
+						<p style="color:red;">x = x + 1</p>
+						<p>y = x + 1</p>
+					</section>
+					<section data-background-iframe="http://www2.ic.uff.br/~bazilio/programandonacozinha/conceitos-basicos/atribuicao.html"
+					         data-background-interactive>
+					</section>
+				</section>
+				<section>
+					<section data-menu-title="Funções">
+						<p class="destaque">Funções</p>
+					</section>
+					<section>
+						<p class="destaque">Mapeamento de Conjuntos</p>
+						<img src="img/conjuntos.png" style="width:70%;">
+					</section>
+					<section>
+						<p class="destaque">Composição de Funções</p>
+						<img src="img/composicao.png" style="width:70%;">
+					</section>
+					<section>
+						<p class="destaque">Funções Anônimas/Lambda</p>
+						<img src="img/lambda.png" style="width:70%;">
+					</section>
+					<section>
+						<p class="destaque">Closures</p>
+						<img src="img/closure.jpg" width="100%">
+					</section>
+					<section data-background-iframe="http://www2.ic.uff.br/~bazilio/programandonacozinha/conceitos-basicos/bibliotecas.html"
+					         data-background-interactive>
+					</section>
+				</section>
+				<section>
+					<section data-menu-title="Valores de 1a. Classe">
+						<p class="destaque">Valores de 1a. Classe</p>
+					</section>
+					<section>
+						<p><span class="destaque, fragment fade-in">Strings como Valor de 1a. Classe</span></p>
+						<p class="fragment fade-in-then-semi-out">Atribuição a variável: <br/><span style="color:gray;">s</span> = <span style="color:yellow;">"Alô Mundo!"</span></p>
+						<p class="fragment fade-in-then-semi-out">Passagem por parâmetro: <br/><span style="color:gray;">print(</span><span style="color:yellow;">"Alô Mundo!"</span><span style="color:gray;">)</span></p>
+						<p class="fragment fade-in-then-semi-out"><span style="color:gray;">console.log(</span><span style="color:yellow;">"Alô Mundo!"</span><span style="color:gray;">)</span></p>
+						<p class="fragment fade-in-then-semi-out">Retorno de função: <br/><span style="color:gray;">function mensagem() { return </span><span style="color:yellow;">"Alô Mundo!"</span> <span style="color:gray;">}</span></p>
+					</section>
+					<section>
+						<p><span class="destaque, fragment fade-in">Funções como Valor de 1a. Classe</span></p>
+						<p class="fragment fade-in-then-semi-out">Função atribuída a Variável</p>
+						<p class="fragment fade-in-then-semi-out">function soma(x,y) { return x + y }</p>
+						<p class="fragment fade-in-then-semi-out">soma(2,3) // 5</p>
+						<p class="fragment fade-in"><span class="fragment highlight-green">soma</span> = <span class="fragment highlight-blue">(x,y) => { return x + y }</span></p>
+						<p class="fragment fade-in">soma = (x,y) => x + y</p>
+						<p class="fragment fade-in">soma(2,3) // 5</p>
+					</section>
+					<section>
+						<p>Função passada por Parâmetro</p>
+						<p class="fragment fade-in-then-semi-out">soma = (x,y) => x + y</p>
+						<p class="fragment fade-in-then-semi-out">funcao_binaria = (x, y, f) => f(x,y)</p>
+						<p class="fragment fade-in-then-semi-out">funcao_binaria(2,3,soma) // 5</p>
+						<p class="fragment fade-in-then-semi-out">concatena = (x,y) => x.toString() + y.toString()</p>
+						<p class="fragment fade-in-then-semi-out">funcao_binaria(2,3,concatena) // '23'</p>
+					</section>
+					<section>
+						<p>Função retornada por outra Função</p>
+						<p class="fragment fade-in-then-semi-out">pot = (x,y) => x ** y</p>
+						<p class="fragment fade-in"><span class="fragment highlight-green">pot_</span> = <span class="fragment highlight-blue">(y)</span> => <span class="fragment highlight-red">(x) => x ** y</span></p>
+						<p class="fragment fade-in-then-semi-out">pot_ = y => x => x ** y</p>
+						<p class="fragment fade-in-then-semi-out">quadrado = pot_(2)</p>
+						<p class="fragment fade-in-then-semi-out">quadrado(3) // 9</p>
+						<p class="fragment fade-in-then-semi-out">pot_(2)(3) // 9</p>
+					</section>
+					<section>
+						<p class="destaque">O que seriam Valores de 1a. Classe na Cozinha?</p>
+					</section>
+					<section>
+						<img src="img/food.jpg" width="100%">
+					</section>
+				</section>
+				<section>
+					<section data-menu-title="Closures">
+						<p class="destaque">Closures</p>
+					</section>
+					<section>
+						<p class="destaque">Closures</p>
+						<img src="img/closure.jpg" width="100%">
+					</section>
+					<section>
+						<p>Exemplo</p>
+						<pre><code data-trim class="hljs">
+							let z = 10
+							soma = (x,y) => { return x+y+z }
+
+							...
+
+							w = soma(20,30)
+						</code></pre>
+					</section>
+				</section>
+				<section>
+					<section data-menu-title="Funções de Alta Ordem">
+						<p class="destaque">Funções de Alta Ordem</p>
+					</section>
+					<section>
+						<p>Funções de Alta Ordem</p>
+						<p class="fragment fade-in-then-semi-out">ponto1 = {x:0, y:0}</p>
+						<p class="fragment fade-in-then-semi-out">ponto2 = {x:10, y:20}</p>
+						<p class="fragment fade-in-then-semi-out">dist = (p1,p2) => Math.sqrt((p2.x - p1.x)**2 + (p2.y - p1.y)**2)</p>
+						<p class="fragment fade-in-then-semi-out">funcao_binaria = (x, y, f) => f(x,y)</p>
+						<p class="fragment fade-in-then-semi-out">funcao_binaria(ponto1, ponto2, dist) // 22.36</p>
+						<p class="fragment fade-in-then-semi-out">Ou seja, nossa função binária pode ser reutilizada para quaisquer 2 valores, desde que fornecida uma função que saiba trabalhar com estes.</p>
+					</section>
+					<section>
+						<p>Funções de Alta Ordem que trabalham com coleções</p>
+					</section>
+					<section>
+						<img src="img/map.png" width="100%">
+					</section>
+					<section>
+						<img src="img/filter.png" width="100%">
+					</section>
+					<section>
+						<img src="img/reduce.png" width="100%">
+					</section>
+					<section>
+						<img src="img/high-order-emoji.jpeg" width="70%">
+					</section>
+					<section>
+						<p>Exemplos de Uso de Funções de Alta Ordem - <span class="destaque">Filter</span></p>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							pontos = [ { x: 10, y: 10 }, 
+							           { x: 20, y: -30 }, 
+							           { x: -10, y: 0 }, 
+							           { x: 10, y: 10 } ]
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							positivo = p => if (p.x >= 0 && p.y >= 0) 
+							                   return true 
+							                else 
+							                   return false;
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							positivo = p => p.x >= 0 && p.y >= 0
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							>> pontos.filter(positivo)
+							<- [ { x: 10, y: 10 }, { x: 10, y: 10 } ]
+						</code></pre>
+					</section>
+					<section>
+						<p>Exemplos de Uso de Funções de Alta Ordem - <span class="destaque">Map e Reduce</span></p>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							pontos = [ { x: 10, y: 10 }, 
+							           { x: 20, y: -30 }, 
+							           { x: -10, y: 0 }, 
+							           { x: 10, y: 10 } ]
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							euclid = p => Math.sqrt((p.x ** 2) + (p.y ** 2))
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							pontos.filter(positivo).map(euclid) // [ 14.14, 14.14 ]
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							>> pontos.filter(positivo).map(euclid).reduce(soma)
+							<- 28.28
+						</code></pre>
+					</section>
+					<section>
+						<p>Exemplos de Uso de Funções de Alta Ordem - <span class="destaque">Map, Filter e Reduce</span></p>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							pontos = [ { x: 10, y: 10 }, 
+							           { x: 20, y: -30 }, 
+							           { x: -10, y: 0 }, 
+							           { x: 10, y: 10 } ]
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							pontos.filter(positivo).map(euclid).reduce(soma)
+						</code></pre>
+						<pre class="fragment fade-in"><code data-trim class="hljs">
+							>> pontos.filter(p => p.x >= 0 && p.y >= 0)
+							         .map(p => Math.sqrt((p.x ** 2) + (p.y ** 2)))
+							         .reduce((x,y) => x + y)
+							<- 28.28
+						</code></pre>
+					</section>
+					<section>
+						<img src="img/map-reduce.png" width="100%">
+					</section>
+					<section>
+						<img src="img/stove.jpg" width="100%">
+					</section>
+				</section>
+				<section>
+					<section data-menu-title="Funções Puras">
+						<p class="destaque">Funções Puras</p>
+					</section>
+					<section data-auto-animate>
+						<p>Funções Impuras</p>
+						<pre><code data-trim class="hljs">
+							void fat(int n, int *res) {
+								if (n &gt; 1) {
+									*res = *res * n;
+									fat(n-1, res);
+								}
+							}
+
+							main() {
+								int resultado = 1;
+								fat (5, &resultado);
+								printf("%d\n", resultado); // 120
+							}
+						</code></pre>
+					</section>
+					<section data-auto-animate>
+						<p>Funções Impuras</p>
+						<pre><code data-trim class="hljs">
+							void fat(int n, int *res) {
+								if (n &gt; 1) {
+									*res = *res * n;
+									fat(n-1, res);
+								}
+							}
+
+							main() {
+								int resultado = 1;
+								fat (5, &resultado);
+								printf("%d\n", resultado); // 120
+							}
+						</code></pre>
+						<p class="fragment fade-in">Combinação (x,y) = <span class="fragment highlight-blue">x!</span> / (<span class="fragment highlight-blue">y!</span> * <span class="fragment highlight-blue">(x-y)!</span>) ??</p>
+					</section>
+					<section data-auto-animate>
+						<p>Funções Impuras</p>
+						<pre><code data-trim class="hljs">
+							void fat(int n, int *res) {
+								if (n &gt; 1) {
+									*res = *res * n;
+									fat(n-1, res);
+								}
+							}
+
+							main() {
+								int resultado = 1;
+								fat (5, &resultado);
+								printf("%d\n", resultado); // 120
+								fat (5, &resultado);
+								printf("%d\n", resultado); // 14400
+							}
+						</code></pre>
+					</section>
+					<section data-auto-animate>
+						<p>Funções Impuras</p>
+						<pre><code data-trim class="hljs">
+							void fat(int n, int *res) {
+								if (n &gt; 1) {
+									*res = *res * n;
+									fat(n-1, res);
+								}
+							}
+
+							main() {
+								int resultado = 1;
+								fat (5, &resultado);
+								printf("%d\n", resultado); // 120
+								fat (5, &resultado);
+								printf("%d\n", resultado); // 14400
+							}
+						</code></pre>
+					</section>
+					<section>
+						<p>Funções Puras</p>
+						<pre><code data-trim class="hljs">
+							int fat(int n) {
+								if ((n == 0) || (n == 1))
+									return 1;
+								return n * fat(n-1);
+							}
+
+							int comb(int x, int y) {
+								return fat(x) / (fat(y) * (fat(x) - fat(y)));
+							}
+
+							main() {
+								printf("%d\n", fat(5)); // 120
+								printf("%d\n", fat(5)); // 120
+								printf("%d\n", comb(4,3)); // 4
+							}
+						</code></pre>
+					</section>
+					<section>
+						<p>Funções Puras</p>
+						<p class="fragment fade-in-then-semi-out">Sem efeito colateral, ou seja ...</p>
+						<p class="fragment fade-in-then-semi-out">Sem modificar variáveis</p>
+						<p class="fragment fade-in-then-semi-out">Sem levantar exceção ou erro</p>
+						<p class="fragment fade-in-then-semi-out">Sem entrada/saída, ...</p>
+						<p class="fragment fade-in-then-semi-out">Podem ser "memoizadas"</p>
+						<p class="fragment fade-in-then-semi-out">São facilmente depuradas, testadas</p>
+						<p class="fragment fade-in-then-semi-out">São facilmente paralelizáveis</p>
+					</section>
+					<section>
+						<img src="img/cooker-pressure.jpg" width="40%">
+					</section>
+				</section>
+				<section>
+					<section data-menu-title="Funcional na Prática">
+						<p class="destaque">Programação Funcional na Prática</p>
+					</section>
+					<section>
+						<p>Exceções</p>
+						<img src="img/exceptions.png" style="width:70%;">
+					</section>
+					<section>
+						<p>Tipo Maybe/Optional</p>
+						<img src="img/maybe.png" style="width:70%;">
+					</section>
+					<section>
+						<p>Programação Funcional na Prática</p>
+						<img src="img/wrapped_pure_functions.png" style="width:100%;">
+					</section>
+					<section>
+						<p>Linguagem Clojure / Datomic</p>
+					</section>
+					<section>
+						<p>Banco de Dados Datomic</p>
+						<blockquote cite="https://link.medium.com/emMB9hi148" class="fragment fade-in">
+							&ldquo;Most of our codebase can be understood locally, looking at any given pure function, understanding its outputs for any given set of inputs. There’s rarely any need to reason about or recreate the internal state of objects.&rdquo;
+							https://link.medium.com/emMB9hi148
+						</blockquote>
+					</section>
+					<section>
+						<p>Elm</p>
+						<p class="fragment fade-in-then-semi-out">Linguagem funcional que compila para JS</p>
+						<p class="fragment fade-in-then-semi-out">Implementada baseada em Haskell</p>
+						<p class="fragment fade-in-then-semi-out">Compilada e fortemente tipada</p>
+						<p class="fragment fade-in-then-semi-out">Sem exceções em tempo de execução</p>
+						<p class="fragment fade-in-then-semi-out">Com mensagens de erro amigáveis</p>
+						<p class="fragment fade-in-then-semi-out">Inspirou o Redux (React)</p>
+					</section>
+					<section>
+						<p>Arquitetura Elm</p>
+						<img src="img/model-view-update.svg" width="100%">
+					</section>
+					<section data-background-iframe="https://elm-lang.org/try"
+					         data-background-interactive>
+					</section>
+				</section>
+				<section>
+					<section data-menu-title="Referências">
+						<p>Referências</p>
+						<p class="fragment fade-in-then-semi-out"><a href="http://eloquentjavascript.net/">http://eloquentjavascript.net/</a></p>
+						<p class="fragment fade-in-then-semi-out"><a href="http://learnyouahaskell.com/">http://learnyouahaskell.com/</a></p>
+						<p class="fragment fade-in-then-semi-out"><a href="https://elmprogramming.com/">https://elmprogramming.com/</a></p>
+						<p class="fragment fade-in-then-semi-out"><a href="https://elm-lang.org/">https://elm-lang.org/</a></p>
+						<p class="fragment fade-in-then-semi-out"><a href="https://www.stackbuilders.com/blog/refactoring-javascript-with-functional-patterns/">Blog sobre Padrões em Prog. Funcional</a></p>
+					</section>
+					<section>
+						<p class="fragment fade-in-then-semi-out"><a href="https://www.youtube.com/watch?v=OSuu8zBBNAA">Vídeo sobre Monadas</a></p>
+						<p class="fragment fade-in-then-semi-out"><a href="https://refactoring.com/catalog/">Refactoring (Martin Fowler)</a></p>
+						<p class="fragment fade-in-then-semi-out">Code Complete, Steve McConnell</p>
+						<p class="fragment fade-in-then-semi-out"><a href="https://revealjs.com/">https://revealjs.com/</a></p>
+					</section>
+				</section>
+				<section data-menu-title="Fim">
+					<a href="http://www.ic.uff.br/~bazilio/palestras/progfunc" style="color:green;text-align:center;text-shadow: 3px 2px brown;font-size: 70px;">Seja Fit, <span class="reveal_alternate" values="Alimente-se|Treine|Programe"></span> <p>Funcionalmente!</p></a>
+					<p>
+						<a href="http://www.ic.uff.br/~bazilio">Prof. Carlos Bazilio, UFF</a><br/>
+						<a href="mailto:carlosbazilio@id.uff.br">carlosbazilio@id.uff.br</a><br/>
+						<a href="http://www.ic.uff.br/~bazilio/palestras/progfunc">http://www.ic.uff.br/~bazilio/palestras/progfunc</a>
+					</p>
+				</section>
+
+				<!-- FIM -->
+				<section>
+					<p><span class="destaque">Show me the Code!</span></p>
+				</section>
+				<section>
+					<p>Haskell</p>
+					<p class="fragment fade-in-then-semi-out">fat(0); <span style="color:green;">// C</span></p>
+					<p class="fragment fade-in-then-semi-out">(fat 0) <span style="color:green;">// LISP</span></p>
+					<p class="fragment fade-in">fat 0 <span style="color:green;">// Haskell</span></p>
+				</section>
+				<section>
+					<p>Haskell</p>
+					<pre class="fragment fade-in-then-semi-out"><code data-trim class="hljs">
+						fat x = 
+							if x == 0 then 
+								1 
+							else 
+								x * fat (x-1)
+					</code></pre>
+					<pre class="fragment fade-in-then-semi-out"><code data-trim class="hljs">
+						fat 0 = 1
+						fat x = x * fat (x-1)
+					</code></pre>
+					<pre class="fragment fade-in"><code data-trim class="hljs">
+						fat :: Int -> Int
+						fat 0 = 1
+						fat x = x * fat (x-1)
+					</code></pre>
+				</section>
+				<section>
+					<p>Arquitetura Elm</p>
+					<img src="img/model-view-update.svg" width="100%">
+				</section>
+				<section>
+					<p>Elm para JS</p>
+					<img src="img/elm2js.svg" width="100%">
+				</section>
+				<section>
+					<p>Elm Runtime</p>
+					<img src="img/elm-runtime.svg" width="100%">
+				</section>
+				<section>
+					<p>Closures</p>
+					<img src="img/closure.jpg" width="100%">
+				</section>
+				<section>
+					<p>Exemplo de Closure</p>
+					<pre><code data-trim class="hljs">
+						soma = (x,y) => { return x+y+z }
+					</code></pre>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/menu/menu.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealZoom ],
+
+				menu: {
+					hideMissingTitles: true
+				}
+			});
+		</script>
+
+		<script src="js/meu-reveal-decorations.js"></script>
+		<!--script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<script src="js/meu-reveal-sketch.js"></script-->
+	</body>
+</html>
