@@ -61,6 +61,8 @@ O objetivo desta disciplina é apresentar conceitos fundamentais de linguagens d
 
 Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5 
 
+- [Notas](Notas.pdf)
+
 ## Exercícios
 
 - [Trabalhos](Trabalhos.pdf)
