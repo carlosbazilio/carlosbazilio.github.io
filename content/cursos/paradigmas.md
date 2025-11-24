@@ -102,13 +102,13 @@ Média final = (2*(Prova1 + Prova2) + Média-Trabalhos) / 5
 |Programação Funcional 	                                                ||14/nov|
 |Programação Funcional 	                                                ||19/nov|
 |Ponto Facultativo (Provável) 	                                        ||21/nov|
-|Prova 	                                                                ||26/nov|
-|                                                                       ||28/nov|
-|VR        	                                                            ||03/dez|
-|    	                                                                ||05/dez|
-|VS 	                                                                ||10/dez|
-|	                                                                    ||12/dez|
-|	                                                                    ||17/dez|
+|      	                                                                ||26/nov|
+|Revisão 1                                                              ||28/nov|
+|Revisão 2                                                              ||03/dez|
+|P2   	                                                                ||05/dez|
+|*Talvez* Vista de Prova                                                ||10/dez|
+|VR	                                                                    ||12/dez|
+|VS	                                                                    ||17/dez|
 
 ## Ferramentas
 
