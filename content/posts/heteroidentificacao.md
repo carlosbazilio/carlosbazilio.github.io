@@ -1,7 +1,7 @@
 +++ 
 author = "Carlos Bazilio" 
 title = "Heteroidentificação" 
-date = "2025-11-11" 
+date = "2025-12-22" 
 description = "Sobre comissões de heteroidentificação" 
 tags = [ "heteroidentificacao", "curso", "racismo" ] 
 +++
