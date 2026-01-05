@@ -8,7 +8,7 @@ tags = [ "rss", "feed", "publicacao", "podcast", "dicas" ]
 
 RSS é uma das ideias mais simples e interessantes (no meu ponto de vista) que foi concebida há algum tempinho atrás na Computação. Resumidamente falando, é um formato de XML que foi muito utilizado há um tempo atrás por sites de notícias e blogs para permitir que seus conteúdos pudessem ser acessados de diferentes formas, como em outros sites ou programas. Um exemplo disso é esse próprio blog, cujo conteúdo também pode ser consumido [por esse link](https://carlosbazilio.github.io/atom.xml).
 
-Alguns sites são bem úteis para compreender este formato. A introdução, sempre útil em si tratato de web, do [W3Schools](https://www.w3schools.com/xml/xml_rss.asp) e o artigo disponível da, não menos importante, [Wikipedia](https://en.wikipedia.org/wiki/RSS).
+Alguns sites são bem úteis para compreender este formato. A introdução, sempre útil em si tratando de web, do [W3Schools](https://www.w3schools.com/xml/xml_rss.asp) e o artigo disponível da, não menos importante, [Wikipedia](https://en.wikipedia.org/wiki/RSS).
 
 Entretanto, o que me motivou a falar sobre o assunto agora foi um uso bem recente e interessante. Tenho ministrado uma disciplina chamada Computação e Sociedade, onde discuto com os alunos temas de Computação que impactam em nossa Sociedade e vice-versa. Uma dos objetivos na discplina é fazer com que as discussões transcendam a sala de aula. Há alguns semestres temos publicado as discussões num podcast chamado [~BazilioCast](https://open.spotify.com/show/3Oj9tyhMVg4eQh23WX6YPD). Isso foi um pedido dos alunos e fiquei realmente surpreso com a facilidade de iniciar de forma caseira, sem muito profissionalismo.
 
