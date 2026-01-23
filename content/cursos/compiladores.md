@@ -17,6 +17,7 @@ Introdução ...
 
 ## Dia, Hora e Local
 
+3as e 5as, 16-18h
 
 ## Objetivo
 
@@ -43,7 +44,42 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 
 |Assunto|Dia|
 | ----- |---|
-
+| |10/mar|
+| |12/mar|
+| |17/mar|
+| |19/mar|
+| |24/mar|
+| |26/mar|
+| |31/mar|
+| |02/abr|
+| |07/abr|
+| |09/abr|
+| |14/abr|
+| |16/abr|
+| |21/abr|
+| |23/abr|
+| |28/abr|
+| |30/abr|
+| |05/mai|
+| |07/mai|
+| |12/mai|
+| |14/mai|
+| |19/mai|
+| |21/mai|
+| |26/mai|
+| |28/mai|
+| |02/jun|
+| |04/jun|
+| |09/jun|
+| |11/jun|
+| |16/jun|
+| |18/jun|
+| |23/jun|
+| |25/jun|
+| |30/jun|
+| |02/jul|
+| |07/jul|
+| |09/jul|
 
 ## Ferramentas
 
