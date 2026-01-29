@@ -1,6 +1,6 @@
 ---
 title: Computação e Sociedade
-date: "2025-07-28"
+date: "2026-01-29"
 ---
 
 [Dia, Hora e Local](#dia-hora-e-local)\
@@ -13,13 +13,16 @@ date: "2025-07-28"
 [Ferramentas](#ferramentas)\
 [Material Complementar](#material-complementar)
 
+
 ## Dia, Hora e Local
 
-6as, de 11-13h (Auditório). 
+3as, de 14-16h (Auditório). 
+
 
 ## Objetivo
 
 O objetivo desta disciplina é discutir aspectos que envolvem a relação entre Computação e Sociedade. Nesta análise analisaremos como a Sociedade modifica e é modificada pela era da Computação e vice-versa. 
+
 
 ## Tópicos
 
@@ -52,12 +55,14 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 - Saúde Mental
 - Arte e Tecnologia
 
+
 ## Bibliografia
 
 - Podcast do curso (BazilioCast): [Spotify](https://open.spotify.com/show/3Oj9tyhMVg4eQh23WX6YPD?si=bdde4dcfa36a44ff), [Deezer](https://www.deezer.com/br/show/6040797)
 - Livros da SBC: [Profissão](Vol1-Profissao.pdf), [Sociedade](Vol2-Sociedade.pdf) e [Tecnologia](Vol3-Tecnologia.pdf).
 - Discussões no [Instagram](https://instagram.com/computacaoesociedadeuff)
 - Wiki usado num semestre antigo: [Wikidot](http://infosoc.wikidot.com/)
+
 
 ## Avaliação
 
@@ -69,23 +74,24 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 
 |Assunto|Dia|
 | ----- |---|
-|		|22/ago|
-|		|29/ago|
-|		|05/set|
-|		|12/set|
-|		|19/set|
-|		|26/set|
-|		|03/out|
-|		|10/out|
-|		|17/out|
-|*Agenda Acadêmica*		|24/out|
-|		|31/out|
-|		|07/nov|
-|		|14/nov|
-|		|21/nov|
-|		|28/nov|
-|		|05/dez|
-|		|12/dez|
+|		|10/mar|
+|		|17/mar|
+|		|24/mar|
+|		|31/mar|
+|		|07/abr|
+|		|14/abr|
+|		|21/abr|
+|		|28/abr|
+|		|05/mai|
+|		|12/mai|
+|		|19/mai|
+|		|26/mai|
+|		|02/jun|
+|		|09/jun|
+|		|16/jun|
+|		|23/jun|
+|		|30/jun|
+|		|07/jul|
 
 
 ## Ferramentas

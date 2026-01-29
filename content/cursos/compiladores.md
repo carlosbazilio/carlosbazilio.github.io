@@ -15,15 +15,26 @@ Introdução ...
 [Ferramentas](#ferramentas)\
 [Material Complementar](#material-complementar)
 
+
 ## Dia, Hora e Local
 
 3as e 5as, 16-18h
+
 
 ## Objetivo
 
 O objetivo desta disciplina é apresentar conceitos fundamentais da implementação de Compiladores para linguagens de programação. Esta terá um enfoque teórico-prático onde, ao final, deseja-se que o(a) aluno(a) seja capaz de implementar um compilador completo. Como efeito-colateral, espera-se que o aluno obtenha insights em técnicas avançadas de análise e síntese de strings em geral. 
 
+
 ## Tópicos
+
+- Análise Léxica
+- Análise Sintática
+- Geradores Automáticos de Parsers
+- Análise Semântica (Tipos e Escopo)
+- Plataformas de Execução
+- Geração de Código 
+- Otimização de Código
 
 
 ## Bibliografia
@@ -36,6 +47,7 @@ O objetivo desta disciplina é apresentar conceitos fundamentais da implementaç
 ## Avaliação
 
 Média final = (Prova1 + Média-Trabalhos) / 2  
+
 
 ## Exercícios
 
@@ -80,6 +92,7 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 | |02/jul|
 | |07/jul|
 | |09/jul|
+
 
 ## Ferramentas
 
