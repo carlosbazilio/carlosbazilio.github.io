@@ -3,7 +3,7 @@ author = "Carlos Bazilio"
 title = "Traços de Personalidade" 
 date = "2026-02-25" 
 description = "Traços de Personalidade" 
-tags = [ "computacao", "personalidade", "traços" ] 
+tags = [ "computacao", "personalidade", "dicas" ] 
 +++
 
 Há um tempinho atrás um amigo me enviou [um vídeo que me deixou bem impressionado](https://www.youtube.com/live/nNna415GiSw). O vídeo é uma entrevista com um psiquiatra que também se mostrou impressionado quando encontrou uma pesquisa em psicologia que resumia os comportamentos dos seres humanos em, pasmem, 5 únicos traços de personalidade.
