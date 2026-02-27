@@ -68,8 +68,8 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 | |09/abr|
 | |14/abr|
 | |16/abr|
-| |21/abr|
-| |23/abr|
+| *Feriado* |21/abr|
+| *Feriado* |23/abr|
 | |28/abr|
 | |30/abr|
 | |05/mai|
@@ -81,7 +81,7 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 | |26/mai|
 | |28/mai|
 | |02/jun|
-| |04/jun|
+| *Feriado* |04/jun|
 | |09/jun|
 | |11/jun|
 | |16/jun|

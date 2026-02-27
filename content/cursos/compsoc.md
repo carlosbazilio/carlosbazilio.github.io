@@ -80,7 +80,7 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 |		|31/mar|
 |		|07/abr|
 |		|14/abr|
-|		|21/abr|
+| *Feriado*	|21/abr|
 |		|28/abr|
 |		|05/mai|
 |		|12/mai|
