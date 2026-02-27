@@ -61,13 +61,13 @@ Média final = Média-Trabalhos
 
 |Assunto|Dia|
 | ----- |---|
-|       |10/mar|
-|       |17/mar|
-|       |24/mar|
-|       |31/mar|
+| Apresentação, Critérios de Avaliação e Histórico |10/mar|
+| API's e Serviços                                 |17/mar|
+| Recuperação e Mineração de Dados                 |24/mar|
+| Semântica na Web                                 |31/mar|
 |       |07/abr|
 |       |14/abr|
-|       |21/abr|
+| *Feriado* |21/abr|
 |       |28/abr|
 |       |05/mai|
 |       |12/mai|
