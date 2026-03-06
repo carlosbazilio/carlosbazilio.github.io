@@ -18,7 +18,7 @@ date: "2026-02-04"
 
 ## Objetivo
 
-Apresentar tópicos de pesquisa relacionados à web. Para tal, faremos uma revisão dos conceitos básicos da web e introduziremos tópicos de pesquisa com apresentações e discussões de artigos. 
+Apresentar tópicos de pesquisa relacionados à web. Para tal, faremos uma revisão dos conceitos básicos da web, introduziremos tópicos de pesquisa com apresentações, implementação de trabalhos práticos e discussões de artigos. 
 
 ## Tópicos
 
@@ -48,10 +48,10 @@ Apresentar tópicos de pesquisa relacionados à web. Para tal, faremos uma revis
 
 - Robert W. Sebesta, Programming the World Wide Web, Addison Wesley.
 - James F. Kurose, Keith W. Ross, Computer Networking, Addison Wesley.
-- Tom Heath and Christian Bizer, [Linked Data: Evolving the Web into a Global Data Space]()(http://linkeddatabook.com/editions/1.0/), Morgan & Claypool.
+- Tom Heath and Christian Bizer, [Linked Data: Evolving the Web into a Global Data Space](http://linkeddatabook.com/editions/1.0/), Morgan & Claypool.
 - Ricardo Baeza-Yates, Berthier Ribeiro-Neto, Modern Information Retrieval, Addison Wesley.
-- [W3Schools]()(http://www.w3schools.com/)
-- [Curso de FullStack da Universidade de Helsinki]()(https://fullstackopen.com/en/)
+- [W3Schools](http://www.w3schools.com/)
+- [Curso de FullStack da Universidade de Helsinki](https://fullstackopen.com/en/)
 
 ## Avaliação
 
