@@ -62,7 +62,7 @@ Média final = Média-Trabalhos
 |Assunto|Dia|
 | ----- |---|
 | Apresentação, Critérios de Avaliação e Histórico |10/mar|
-| API's e Serviços                                 |17/mar|
+| Web API's                                        |17/mar|
 | Recuperação e Mineração de Dados                 |24/mar|
 | Semântica na Web                                 |31/mar|
 |       |07/abr|
