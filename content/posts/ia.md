@@ -18,7 +18,5 @@ Desde que essas ferramentas de IA surgiram, e desde que o DeepSeek fez aquele es
 
 Talvez essas IAs estejam nos impondo um **perfeccionismo tóxico**, o que talvez nos faça admirar imperfeições, incompletudes, o "feio". Já se acumulam entusiastas de vinis, saudosos de uma época onde se ouvia tudo de uma gravação. Por que não passarmos a admirar também os erros, como já acontece com Carolina Maria de Jesus em Quarto de Despejo? Nossas falhas, nossas espinhas, por que não vê-las como uma dádiva que nos distingue. IAs podem reproduzir algo similar? Bem provável. Mas, quem sabe assim não teremos um mundo menos segregador e mais tolerante ao "diferente" !!! 😉
 
-Por mim, seguem 2 recomendações de leitura sobre diretrizes de como se utilizar IA's generativas de forma mais consciente:
-
-[Guia para o uso de ferramentas de IA GENERATIVA da UFF](Guia-para-o-uso-de-IA-Generativa.pdf) e [Diretrizes para o uso ético e responsável da Inteligência Artificial Generativa: um guia prático para pesquisadores](Diretrizes-IA.pdf).
+Por fim, seguem 2 recomendações de leitura sobre diretrizes de como se utilizar IA's generativas de forma mais consciente: [Guia para o uso de ferramentas de IA GENERATIVA da UFF](Guia-para-o-uso-de-IA-Generativa.pdf) e [Diretrizes para o uso ético e responsável da Inteligência Artificial Generativa: um guia prático para pesquisadores](Diretrizes-IA.pdf).
 
