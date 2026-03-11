@@ -65,8 +65,8 @@ Média final = Média-Trabalhos
 | Web API's                                        |17/mar|
 | Recuperação e Mineração de Dados                 |24/mar|
 | Semântica na Web                                 |31/mar|
-|       |07/abr|
-|       |14/abr|
+| Protocolos e Agentes Web                         |07/abr|
+|                                                  |14/abr|
 | *Feriado* |21/abr|
 |       |28/abr|
 |       |05/mai|
