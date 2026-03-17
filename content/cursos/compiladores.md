@@ -12,8 +12,7 @@ Introdução ...
 [Avaliação](#avaliação)\
 [Exercícios](#exercícios)\
 [Cronograma](#cronograma)\
-[Ferramentas](#ferramentas)\
-[Material Complementar](#material-complementar)
+[Ferramentas](#ferramentas)
 
 
 ## Dia, Hora e Local
@@ -95,9 +94,6 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 
 
 ## Ferramentas
-
-
-## Material Complementar
 
 - Linguagem Alvo: [COOL](https://theory.stanford.edu/~aiken/software/cool/cool-manual.pdf)
 - [Editor online](https://cooltojs.nathanfriend.com/) de COOL
