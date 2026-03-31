@@ -10,7 +10,7 @@ Introdução ...
 [Tópicos](#tópicos)\
 [Bibliografia](#bibliografia)\
 [Avaliação](#avaliação)\
-[Exercícios](#exercícios)\
+[Notas](#notas)\
 [Cronograma](#cronograma)\
 [Ferramentas](#ferramentas)
 
@@ -48,7 +48,9 @@ O objetivo desta disciplina é apresentar conceitos fundamentais da implementaç
 Média final = (Prova1 + Média-Trabalhos) / 2  
 
 
-## Exercícios
+## Notas
+
+[Notas até o momento](Notas.pdf)
 
 
 ## Cronograma
