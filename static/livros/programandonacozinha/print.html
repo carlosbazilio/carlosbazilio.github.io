@@ -208,7 +208,9 @@
 <tr><td style="text-align: left">Material para criar receitas</td><td style="text-align: left">IDE</td></tr>
 </tbody></table>
 <p>Agora que introduzimos as analogias básicas e gerais entre Computação e Culinária, podemos iniciar a apresentação das analogias entre receitas e programas, as quais são o objetivo principal deste livro.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="conceitos-básicos"><a class="header" href="#conceitos-básicos">Conceitos Básicos</a></h1>
+<p>Mas antes, um teste para verificar se captou a essência dessas analogias:</p>
+<div class="quiz-placeholder" data-quiz-name="introducao"  data-quiz-questions="{&quot;questions&quot;:[{&quot;context&quot;:&quot;O tanque ou a máquina de lavar são os locais onde as roupas são efetivamente lavadas.\n&quot;,&quot;type&quot;:&quot;MultipleChoice&quot;,&quot;answer&quot;:{&quot;answer&quot;:&quot;CPU ou processador, onde os dados são efetivamente processados.&quot;},&quot;prompt&quot;:{&quot;distractors&quot;:[&quot;Memória secundária, onde itens são armazenados para depois serem recuperados e usados.&quot;,&quot;Cliente da lavanderia.&quot;,&quot;Memória principal, onde os dados são armazenados de forma temporária para serem processados.&quot;],&quot;prompt&quot;:&quot;Numa lavanderia de uma casa, qual seria o papel mais adequado para um tanque ou máquina de lavar?&quot;}},{&quot;context&quot;:&quot;O tanque ou a máquina de lavar são os locais onde as roupas são efetivamente lavadas. Desta forma, as roupas são os dados a serem processados.\n&quot;,&quot;type&quot;:&quot;MultipleChoice&quot;,&quot;answer&quot;:{&quot;answer&quot;:&quot;Os dados a serem processados.&quot;},&quot;prompt&quot;:{&quot;distractors&quot;:[&quot;Clientes da lavanderia.&quot;,&quot;Memória principal, onde os dados são armazenados de forma temporária para serem processados.&quot;,&quot;Sistema operacional, o que auxilia na limpeza.&quot;],&quot;prompt&quot;:&quot;O que seriam as roupas numa lavanderia?&quot;}}]}"  data-quiz-fullscreen="" ></div>
+<script type="text/javascript" src="mdbook-quiz/lib.js"></script><link rel="stylesheet" type="text/css" href="mdbook-quiz/lib.css"><div style="break-before: page; page-break-before: always;"></div><h1 id="conceitos-básicos"><a class="header" href="#conceitos-básicos">Conceitos Básicos</a></h1>
 <p>Neste capítulo apresentamos analogias de conceitos básicos para os iniciantes em Programação. Todas as analogias levam em consideração as analogias básicas apresentadas no <a href="https://carlosbazilio.gitbooks.io/programando-na-cozinha/content/chapter1.html#analogias" title="Url do capítulo">capítulo de Introdução</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="entradasaída"><a class="header" href="#entradasaída">Entrada/Saída</a></h1>
 <p><img src="conceitos-basicos/../assets/pexels-photo-313700s.jpeg" alt="" /></p>
@@ -350,7 +352,7 @@ main() {
 <div style="break-before: page; page-break-before: always;"></div><h1 id="algoritmo"><a class="header" href="#algoritmo">Algoritmo</a></h1>
 <p><img src="conceitos-basicos/../assets/algoritmo.jpg" alt="" /></p>
 <p>Como comentado na <a href="conceitos-basicos/../introducao.html">Introdução</a> deste livro, a analogia para uma receita culinária é um programa de computador. Executar um programa de computador é análogo a preparar uma receita. Estas últimas ações só podem ser concluídas caso seus elementos principais, o programa e a receita, já estejam elaborados.</p>
-<p>Uma receita é escrita num idioma específico, num leiaute específico, com unidade de medidas específica, assim como um programa é escrito numa linguagem de programação particular. Na elaboração de receitas e programas é comum criarmos um esboço da sequência de passos a serem seguidos, deixando de fora (abstraindo) detalhes muitos específicos dessas linguagens. Por exemplo, num esboço de receita, é aceitável uma receita precisar de 3 ovos. Na receita a ser preparada é importante dar mais detalhes, como se são ovos de galinha, se são pequenos, médios ou grandes, ou até os seus pesos.</p>
+<p>Uma receita é escrita num idioma específico, num leiaute específico, com unidade de medidas específica, assim como um programa é escrito numa linguagem de programação particular. Na elaboração de receitas e programas é comum criarmos um esboço da sequência de passos a serem seguidos, deixando de fora (abstraindo) detalhes muitos específicos dessas linguagens. Por exemplo, num esboço de receita, é aceitável uma receita precisar de 1/2 limão. Na receita a ser preparada é importante dar mais detalhes, como o espécie do limão (taiti, galego, ..) para o preparo de uma caipirinha, forma de espremer o limão, quantidade, etc.</p>
 <p>Na programação de computadores não é diferente. O interessante é que há um nome específico para estes programas de computadores que não trazem muitos detalhes quanto a sua execução: <strong>algoritmo</strong>. Para o programa apresentado na seção <a href="conceitos-basicos/./alomundo.html">Alô Mundo</a>, o seu respectivo algoritmo poderia ser simplesmente:</p>
 <pre><code>Crie mensagem Alô mundo!
 Exiba esta mensagem na tela
@@ -359,7 +361,7 @@ Exiba esta mensagem na tela
 <pre><code>Frite 1 ovo em óleo numa frigideira
 Adicione sal a gosto
 </code></pre>
-<p>Observe que, no programa, não se sabe exatamente como a mensagem será criada, assim como exibida. Da mesma forma, não se sabe o tamanho do ovo, quanto de óleo deve ser utilizado e nem o quanto de sal. A quantidade de sal pode parecer óbvia para cozinha com frequência, mas não é certamente não é óbvia para quem está iniciando na cozinha.</p>
+<p>Observe que, no programa, não se sabe exatamente como a mensagem será criada, assim como exibida. Da mesma forma, não se sabe o tamanho do ovo, quanto de óleo deve ser utilizado e nem o quanto de sal. A quantidade de sal pode parecer óbvia para quem cozinha com frequência, mas certamente não é óbvia para quem está iniciando.</p>
 <p>Outro ponto importante a se observar é que ambos os esboços de preparos acima possuem menos etapas. Isso é interessante, pois o papel desses esboços é resumir, dar uma idéia geral do que precisa ser feito. Esse exercício de partir de um esboço para se chegar numa especificação final nem de longe está restrito a programação e a preparação de receitas. Na construção de uma casa ou prédio, na criação de um carro, na elaboração de um livro, em todas estas atividades o exercício de se criar um esboço ajuda a se compreender, adaptar e evoluir algo que precisa ser concebido.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ordenação"><a class="header" href="#ordenação">Ordenação</a></h1>
 <p><img src="conceitos-basicos/../assets/ordenacao.jpg" alt="" /></p>
@@ -557,22 +559,6 @@ Adicione sal a gosto
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

@@ -1,0 +1,31 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Numa lavanderia de uma casa, qual seria o papel mais adequado para um tanque ou máquina de lavar?"
+prompt.distractors = [
+  "Memória secundária, onde itens são armazenados para depois serem recuperados e usados.",
+  "Cliente da lavanderia.",
+  "Memória principal, onde os dados são armazenados de forma temporária para serem processados."
+]
+answer.answer = "CPU ou processador, onde os dados são efetivamente processados."
+context = """
+O tanque ou a máquina de lavar são os locais onde as roupas são efetivamente lavadas.
+"""
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "O que seriam as roupas numa lavanderia?"
+prompt.distractors = [
+  "Clientes da lavanderia.",
+  "Memória principal, onde os dados são armazenados de forma temporária para serem processados.",
+  "Sistema operacional, o que auxilia na limpeza."
+]
+answer.answer = "Os dados a serem processados."
+context = """
+O tanque ou a máquina de lavar são os locais onde as roupas são efetivamente lavadas. Desta forma, as roupas são os dados a serem processados.
+"""
+
+#[[questions]]
+#type = "ShortAnswer"
+#prompt.prompt = "What is the keyword for declaring a variable in Rust?"
+#answer.answer = "let"
+#context = "For example, you can write: `let x = 1`"
