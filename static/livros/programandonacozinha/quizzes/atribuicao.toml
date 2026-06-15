@@ -1,0 +1,18 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Que analogia podemos fazer para uma atribuição numa lavanderia?"
+prompt.distractors = [
+  "Misturar roupas.",
+  "Enxaguar roupas.",
+  "Ligar a máquina de lavar."
+]
+answer.answer = "Colocar roupas num balde."
+context = """
+Numa lavanderia, os baldes são recipientes utilizados como armazenagem temporária num processo de lavagem.
+"""
+
+#[[questions]]
+#type = "ShortAnswer"
+#prompt.prompt = "What is the keyword for declaring a variable in Rust?"
+#answer.answer = "let"
+#context = "For example, you can write: `let x = 1`"

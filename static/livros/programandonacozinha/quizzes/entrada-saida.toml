@@ -1,0 +1,18 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "O que caracteriza melhor uma entrada ou saída numa lavanderia?"
+prompt.distractors = [
+  "Processo de enxágue.",
+  "Secagem das roupas.",
+  "Dobra e passagem das roupas."
+]
+answer.answer = "Tipos de roupa e quantidade de sujeira."
+context = """
+Numa lavanderia, as entradas são tudo que é necessário para se iniciar um processo de lavagem, enquanto que as saídas são resultado desse processo.
+"""
+
+#[[questions]]
+#type = "ShortAnswer"
+#prompt.prompt = "What is the keyword for declaring a variable in Rust?"
+#answer.answer = "let"
+#context = "For example, you can write: `let x = 1`"
