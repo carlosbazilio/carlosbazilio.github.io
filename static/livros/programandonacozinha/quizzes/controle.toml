@@ -1,0 +1,19 @@
+[[questions]]
+type = "ShortAnswer"
+prompt.prompt = "Considere que temos várias roupas manchadas e queremos processá-las até que fiquem limpas. Qual a palavra mais adequada  (**Se**, **Caso** ou **Enquanto**) para seu utilizar na frase abaixo:<br><br> _ _ _ _ _ roupas com mancha faça&emsp;<br>&emsp;&emsp;Deixar de molho<br>&emsp;&emsp;Esfregar<br>&emsp;&emsp;Enxaguar<br>Fim Processo"
+answer.answer = "Enquanto"
+context = "Precisamos que as etapas listadas sejam executadas repetidas vezes até que o objetivo seja alcançado."
+
+#[[questions]]
+#type = "MultipleChoice"
+#prompt.prompt = "O que caracteriza melhor uma entrada ou saída numa lavanderia?"
+#prompt.distractors = [
+#  "Processo de enxágue.",
+#  "Secagem das roupas.",
+#  "Dobra e passagem das roupas."
+#]
+#answer.answer = "Tipos de roupa e quantidade de sujeira."
+#context = """
+#Numa lavanderia, as entradas são tudo que é necessário para se iniciar um processo de lavagem, enquanto que as saídas são resultado desse processo.
+#"""
+
