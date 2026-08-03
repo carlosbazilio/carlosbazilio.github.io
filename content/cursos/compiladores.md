@@ -1,6 +1,6 @@
 ---
 title: Compiladores
-date: "2026-01-26"
+date: "2026-08-04"
 ---
 
 Introdução ...
@@ -17,7 +17,7 @@ Introdução ...
 
 ## Dia, Hora e Local
 
-3as e 5as, 16-18h
+3as e 5as, 14-16h nas salas 9 e 3, respectivamente.
 
 
 ## Objetivo
@@ -57,42 +57,44 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 
 |Assunto|Dia|
 | ----- |---|
-| Apresentação e Critérios de Avaliação  |10/mar|
-| COOL                                   |12/mar|
-| Análise Léxica                         |17/mar|
-| Geração Automática de Parser Léxico    |19/mar|
-| Análise Sintática                      |24/mar|
-| Geração Automática de Parser Sintático |26/mar|
-| Check Point (An. Léxico)               |31/mar|
-| Análise Semântica - Escopo             |02/abr|
-| Análise Semântica - Escopo             |07/abr|
-| Análise Semântica - Tipo               |09/abr|
-| Análise Semântica - Tipo               |14/abr|
-| Geração de Código                      |16/abr|
-| *Feriado*                              |21/abr|
-| *Feriado*                              |23/abr|
-| Check Point (An. Sintático)            |28/abr|
-| Bril                                   |30/abr|
-|                                        |05/mai|
-|                                        |07/mai|
-|                                        |12/mai|
-|                                        |14/mai|
-|                                        |19/mai|
-|                                        |21/mai|
-|                                        |26/mai|
-| Check Point (An. Semântico)            |28/mai|
-|                                        |02/jun|
-| *Feriado*                              |04/jun|
-|                                        |09/jun|
-|                                        |11/jun|
-|                                        |16/jun|
-|                                        |18/jun|
-|                                        |23/jun|
-| Check Point (Geração de Código)        |25/jun|
-|                                        |30/jun|
-|                                        |02/jul|
-|                                        |07/jul|
-|                                        |09/jul|
+| Apresentação e Critérios de Avaliação  |04/ago|
+| COOL                                   |06/ago|
+| Análise Léxica                         |11/ago|
+| Geração Automática de Parser Léxico    |13/ago|
+| Análise Sintática                      |18/ago|
+| Geração Automática de Parser Sintático |20/ago|
+| Check Point (An. Léxico)               |25/ago|
+| Análise Semântica - Escopo             |27/ago|
+| Análise Semântica - Escopo             |01/set|
+| Análise Semântica - Tipo               |03/set|
+| Análise Semântica - Tipo               |08/set|
+| Geração de Código                      |10/set|
+| Check Point (An. Sintático)            |15/set|
+|                                        |17/set|
+|                                        |22/set|
+| Bril                                   |24/set|
+|                                        |29/set|
+|                                        |01/out|
+|                                        |06/out|
+|                                        |08/out|
+|                                        |13/out|
+| *Feriado*                              |15/out|
+| Check Point (An. Semântico)            |20/out|
+|                                        |22/out|
+|                                        |27/out|
+|                                        |29/out|
+|                                        |03/nov|
+|                                        |05/nov|
+|                                        |10/nov|
+|                                        |12/nov|
+|                                        |17/nov|
+| Check Point (Geração de Código)        |19/nov|
+|                                        |24/nov|
+|                                        |26/nov|
+|                                        |01/dez|
+|                                        |03/dez|
+|                                        |08/dez|
+|                                        |10/dez|
 
 
 ## Ferramentas

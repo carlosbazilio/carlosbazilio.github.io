@@ -1,6 +1,6 @@
 ---
 title: Computação e Sociedade
-date: "2026-01-29"
+date: "2026-08-03"
 ---
 
 [Dia, Hora e Local](#dia-hora-e-local)\
@@ -16,7 +16,7 @@ date: "2026-01-29"
 
 ## Dia, Hora e Local
 
-3as, de 14-16h (Auditório). 
+3as e 5as, de 16-18h no Auditório.
 
 
 ## Objetivo
@@ -67,34 +67,48 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 ## Avaliação
 
 
-## Exercícios
-
-
 ## Cronograma
 
 |Assunto|Dia|
 | ----- |---|
-|		|10/mar|
-|		|17/mar|
-|		|24/mar|
-|		|31/mar|
-|		|07/abr|
-|		|14/abr|
-| *Feriado*	|21/abr|
-|		|28/abr|
-|		|05/mai|
-|		|12/mai|
-|		|19/mai|
-|		|26/mai|
-|		|02/jun|
-|		|09/jun|
-|		|16/jun|
-|		|23/jun|
-|		|30/jun|
-|		|07/jul|
-
-
-## Ferramentas
+| Apresentação e Critérios de Avaliação  |04/ago|
+|                                        |06/ago|
+|                                        |11/ago|
+|                                        |13/ago|
+|                                        |18/ago|
+|                                        |20/ago|
+|                                        |25/ago|
+|                                        |27/ago|
+|                                        |01/set|
+|                                        |03/set|
+|                                        |08/set|
+|                                        |10/set|
+|                                        |15/set|
+|                                        |17/set|
+|                                        |22/set|
+|                                        |24/set|
+|                                        |29/set|
+|                                        |01/out|
+|                                        |06/out|
+|                                        |08/out|
+|                                        |13/out|
+|                                        |15/out|
+|                                        |20/out|
+|                                        |22/out|
+|                                        |27/out|
+|                                        |29/out|
+|                                        |03/nov|
+|                                        |05/nov|
+|                                        |10/nov|
+|                                        |12/nov|
+|                                        |17/nov|
+|                                        |19/nov|
+|                                        |24/nov|
+|                                        |26/nov|
+|                                        |01/dez|
+|                                        |03/dez|
+|                                        |08/dez|
+|                                        |10/dez|
 
 
 ## Material Complementar
