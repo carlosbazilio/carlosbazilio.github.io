@@ -1,6 +1,6 @@
 ---
 title: Compiladores
-date: "2026-08-04"
+date: "2026-08-03"
 ---
 
 Introdução ...
