@@ -41,6 +41,7 @@ O objetivo desta disciplina é apresentar conceitos fundamentais da implementaç
 - A Practical Approach to Compiler Construction, Des Watson, Springer
 - Modern Compiler Implementation in (Java|C|ML), Andrew Appel, Cambridge
 - Compiler Engineering Using Pascal, P. C. Capon and P. J. Jinks, Macmillan
+- [Notas sobre algoritmo Shift-Reduce](shift-reduce.html)
 
 
 ## Avaliação
