@@ -1,0 +1,18 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Considere uma máquina lava e seca onde uma rotina completa se caracteriza pelos seguintes processos: molho, esfrega, enxágue e secagem. Como esta é uma máquina versátil, os processos listados podem ser acionados isoladamente, ou seja, a máquina pode ser utilizada somente para esfrega ou somente para secagem. Esse processos podem ser atribuídos a que conceito na programação?"
+prompt.distractors = [
+  "Fluxo de Controle.",
+  "Arquivos.",
+  "Entrada e saída."
+]
+answer.answer = "Subrotinas"
+context = """
+Uma máquina de lavar normalmente possui vários **programas** os quais podem combinar diferentes processos. Cada programa seria uma rotina completa, enquanto que cada processo são as etapas intermediárias para execução do programa. Como essas etapas podem ser acionadas de forma independente, o conceito mais adequado a ser associado, neste caso, são as subrotinas.
+"""
+
+#[[questions]]
+#type = "ShortAnswer"
+#prompt.prompt = "What is the keyword for declaring a variable in Rust?"
+#answer.answer = "let"
+#context = "For example, you can write: `let x = 1`"

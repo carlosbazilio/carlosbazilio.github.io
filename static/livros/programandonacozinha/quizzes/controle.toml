@@ -1,6 +1,6 @@
 [[questions]]
 type = "ShortAnswer"
-prompt.prompt = "Considere que temos várias roupas manchadas e queremos processá-las até que fiquem limpas. Qual a palavra mais adequada  (**Se**, **Caso** ou **Enquanto**) para seu utilizar na frase abaixo:<br><br> _ _ _ _ _ roupas com mancha faça&emsp;<br>&emsp;&emsp;Deixar de molho<br>&emsp;&emsp;Esfregar<br>&emsp;&emsp;Enxaguar<br>Fim Processo"
+prompt.prompt = "Considere que temos várias roupas manchadas e queremos processá-las até que fiquem limpas. Qual a palavra mais adequada  (**Se**, **Caso** ou **Enquanto**) para seu utilizar na frase abaixo:<br><br> _ _ _ _ _ roupas com mancha faça&emsp;<br>&emsp;&emsp;Deixar de molho<br>&emsp;&emsp;Esfregar<br>&emsp;&emsp;Enxaguar<br>Fim do Processo"
 answer.answer = "Enquanto"
 context = "Precisamos que as etapas listadas sejam executadas repetidas vezes até que o objetivo seja alcançado."
 

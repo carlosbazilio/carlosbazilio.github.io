@@ -1,0 +1,18 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Para permitir que roupas de diferentes tecidos possam ser lavadas juntas numa máquna de lavar roupas, usualmente separam-se essas classes de roupas em sacos próprios para irem a máquina. Esse processo de organização se assemelha a que conceito na Computação?"
+prompt.distractors = [
+  "Atribuição.",
+  "Função.",
+  "Recursão."
+]
+answer.answer = "Estruturas de Dados."
+context = """
+Numa lavanderia, saquinhos de tecido funcionam como organizadores, agrupando itens similares em termos de delicadeza do tecido.
+"""
+
+#[[questions]]
+#type = "ShortAnswer"
+#prompt.prompt = "What is the keyword for declaring a variable in Rust?"
+#answer.answer = "let"
+#context = "For example, you can write: `let x = 1`"

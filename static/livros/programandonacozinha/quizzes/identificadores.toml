@@ -1,0 +1,18 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = "Se temos baldes de vários tamanhos e com vários propósitos numa lavanderia, como fazemos para distingui-los?"
+prompt.distractors = [
+  "Não conseguimos distinguir.",
+  "Pintamos com cores diferentes para diferenciá-los.",
+  "Compramos baldes iguais para evitar ter que distingui-los."
+]
+answer.answer = "Usamos alguma característica existente para identificá-los como o menor, o maior, o quadrado, o com tampa, etc"
+context = """
+Numa lavanderia, usamos baldes de diferentes tamanhos para diferentes propósitos. Por exemplo, os pequenos podem ficar para roupas íntimas, enquanto que os maiores para calças e casacos. Uma forma de distingui-los seria citar o balde de roupas íntimas ou o balde de calças.
+"""
+
+#[[questions]]
+#type = "ShortAnswer"
+#prompt.prompt = "What is the keyword for declaring a variable in Rust?"
+#answer.answer = "let"
+#context = "For example, you can write: `let x = 1`"
