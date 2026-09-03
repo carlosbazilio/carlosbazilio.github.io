@@ -63,19 +63,19 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 | Análise Léxica                         |11/ago|
 | Geração Automática de Parser Léxico    |13/ago|
 | Análise Sintática                      |18/ago|
-| Geração Automática de Parser Sintático |20/ago|
+| Análise Sintática                      |20/ago|
 | Check Point (An. Léxico)               |25/ago|
-| Análise Semântica - Escopo             |27/ago|
-| Análise Semântica - Escopo             |01/set|
-| Análise Semântica - Tipo               |03/set|
+| Geração Automática de Parser Sintático |27/ago|
+| Geração Automática de Parser Sintático |01/set|
+| Algoritmo Shift-Reduce                 |03/set|
 | Análise Semântica - Tipo               |08/set|
-| Geração de Código                      |10/set|
+| Análise Semântica - Tipo               |10/set|
 | Check Point (An. Sintático)            |15/set|
-|                                        |17/set|
-|                                        |22/set|
-| Bril                                   |24/set|
-|                                        |29/set|
-|                                        |01/out|
+| Análise Semântica - Tipo               |17/set|
+| Análise Semântica - Escopo             |22/set|
+| Análise Semântica - Escopo             |24/set|
+| Geração de Código                      |29/set|
+| Bril                                   |01/out|
 |                                        |06/out|
 |                                        |08/out|
 |                                        |13/out|

@@ -71,44 +71,44 @@ O objetivo desta disciplina é discutir aspectos que envolvem a relação entre 
 
 |Assunto|Dia|
 | ----- |---|
-| Apresentação e Critérios de Avaliação  |04/ago|
-|                                        |06/ago|
-|                                        |11/ago|
-|                                        |13/ago|
-|                                        |18/ago|
-|                                        |20/ago|
-|                                        |25/ago|
-|                                        |27/ago|
-|                                        |01/set|
-|                                        |03/set|
-|                                        |08/set|
-|                                        |10/set|
-|                                        |15/set|
-|                                        |17/set|
-|                                        |22/set|
-|                                        |24/set|
-|                                        |29/set|
-|                                        |01/out|
-|                                        |06/out|
-|                                        |08/out|
-|                                        |13/out|
-|                                        |15/out|
-|                                        |20/out|
-|                                        |22/out|
-|                                        |27/out|
-|                                        |29/out|
-|                                        |03/nov|
-|                                        |05/nov|
-|                                        |10/nov|
-|                                        |12/nov|
-|                                        |17/nov|
-|                                        |19/nov|
-|                                        |24/nov|
-|                                        |26/nov|
-|                                        |01/dez|
-|                                        |03/dez|
-|                                        |08/dez|
-|                                        |10/dez|
+| Apresentação e Critérios de Avaliação      |04/ago|
+|                                            |06/ago|
+|                                            |11/ago|
+|                                            |13/ago|
+|                                            |18/ago|
+|                                            |20/ago|
+|                                            |25/ago|
+|                                            |27/ago|
+|                                            |01/set|
+|                                            |03/set|
+|                                            |08/set|
+|                                            |10/set|
+|Exibição do Documentário: Dilemas nas Redes |15/set|
+|Debate sobre o Documentário                 |17/set|
+|                                            |22/set|
+|                                            |24/set|
+|                                            |29/set|
+|                                            |01/out|
+|                                            |06/out|
+|                                            |08/out|
+|                                            |13/out|
+|                                            |15/out|
+|                                            |20/out|
+|                                            |22/out|
+|                                            |27/out|
+|                                            |29/out|
+|                                            |03/nov|
+|                                            |05/nov|
+|                                            |10/nov|
+|                                            |12/nov|
+|                                            |17/nov|
+|                                            |19/nov|
+|                                            |24/nov|
+|                                            |26/nov|
+|                                            |01/dez|
+|                                            |03/dez|
+|                                            |08/dez|
+|                                            |10/dez|
 
 
 ## Material Complementar
