@@ -105,4 +105,5 @@ Média final = (Prova1 + Média-Trabalhos) / 2
 - [Documentação de Bril](https://capra.cs.cornell.edu/bril/)
 - [GitHub de Bril](https://github.com/sampsyo/bril)
 - [Calcular conjuntos First/Follow](https://cyberzhg.github.io/toolbox/first_follow)
+- [Visualização de Códigos Compilados](https://godbolt.org/)
 
